@@ -1,0 +1,553 @@
+C:\Users\Me\Desktop\NEW\YourPlace\API\obj\Debug\API.csprojAssemblyReference.cache
+C:\Users\Me\Desktop\NEW\YourPlace\API\obj\Debug\API.csproj.CoreCompileInputs.cache
+C:\Users\Me\Desktop\NEW\YourPlace\API\bin\API.dll.config
+C:\Users\Me\Desktop\NEW\YourPlace\API\bin\API.dll
+C:\Users\Me\Desktop\NEW\YourPlace\API\bin\API.pdb
+C:\Users\Me\Desktop\NEW\YourPlace\API\bin\roslyn\csc.exe
+C:\Users\Me\Desktop\NEW\YourPlace\API\bin\roslyn\csc.exe.config
+C:\Users\Me\Desktop\NEW\YourPlace\API\bin\roslyn\csc.rsp
+C:\Users\Me\Desktop\NEW\YourPlace\API\bin\roslyn\csi.exe
+C:\Users\Me\Desktop\NEW\YourPlace\API\bin\roslyn\csi.exe.config
+C:\Users\Me\Desktop\NEW\YourPlace\API\bin\roslyn\csi.rsp
+C:\Users\Me\Desktop\NEW\YourPlace\API\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Me\Desktop\NEW\YourPlace\API\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Me\Desktop\NEW\YourPlace\API\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Me\Desktop\NEW\YourPlace\API\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Me\Desktop\NEW\YourPlace\API\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Me\Desktop\NEW\YourPlace\API\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Me\Desktop\NEW\YourPlace\API\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Me\Desktop\NEW\YourPlace\API\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Me\Desktop\NEW\YourPlace\API\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Me\Desktop\NEW\YourPlace\API\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\Me\Desktop\NEW\YourPlace\API\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Me\Desktop\NEW\YourPlace\API\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\Me\Desktop\NEW\YourPlace\API\bin\roslyn\System.AppContext.dll
+C:\Users\Me\Desktop\NEW\YourPlace\API\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Me\Desktop\NEW\YourPlace\API\bin\roslyn\System.Console.dll
+C:\Users\Me\Desktop\NEW\YourPlace\API\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Me\Desktop\NEW\YourPlace\API\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Me\Desktop\NEW\YourPlace\API\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Me\Desktop\NEW\YourPlace\API\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\Me\Desktop\NEW\YourPlace\API\bin\roslyn\System.IO.Compression.dll
+C:\Users\Me\Desktop\NEW\YourPlace\API\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\Me\Desktop\NEW\YourPlace\API\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Me\Desktop\NEW\YourPlace\API\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Me\Desktop\NEW\YourPlace\API\bin\roslyn\System.Net.Http.dll
+C:\Users\Me\Desktop\NEW\YourPlace\API\bin\roslyn\System.Net.Sockets.dll
+C:\Users\Me\Desktop\NEW\YourPlace\API\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Me\Desktop\NEW\YourPlace\API\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\Me\Desktop\NEW\YourPlace\API\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\Me\Desktop\NEW\YourPlace\API\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\Me\Desktop\NEW\YourPlace\API\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\Me\Desktop\NEW\YourPlace\API\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Me\Desktop\NEW\YourPlace\API\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Me\Desktop\NEW\YourPlace\API\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\Me\Desktop\NEW\YourPlace\API\bin\roslyn\System.ValueTuple.dll
+C:\Users\Me\Desktop\NEW\YourPlace\API\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\Me\Desktop\NEW\YourPlace\API\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\Me\Desktop\NEW\YourPlace\API\bin\roslyn\System.Xml.XPath.dll
+C:\Users\Me\Desktop\NEW\YourPlace\API\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\Me\Desktop\NEW\YourPlace\API\bin\roslyn\vbc.exe
+C:\Users\Me\Desktop\NEW\YourPlace\API\bin\roslyn\vbc.exe.config
+C:\Users\Me\Desktop\NEW\YourPlace\API\bin\roslyn\vbc.rsp
+C:\Users\Me\Desktop\NEW\YourPlace\API\bin\roslyn\VBCSCompiler.exe
+C:\Users\Me\Desktop\NEW\YourPlace\API\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Me\Desktop\NEW\YourPlace\API\bin\Antlr3.Runtime.dll
+C:\Users\Me\Desktop\NEW\YourPlace\API\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Me\Desktop\NEW\YourPlace\API\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Me\Desktop\NEW\YourPlace\API\bin\Newtonsoft.Json.dll
+C:\Users\Me\Desktop\NEW\YourPlace\API\bin\System.Net.Http.Formatting.dll
+C:\Users\Me\Desktop\NEW\YourPlace\API\bin\System.Web.Helpers.dll
+C:\Users\Me\Desktop\NEW\YourPlace\API\bin\System.Web.Http.dll
+C:\Users\Me\Desktop\NEW\YourPlace\API\bin\System.Web.Http.WebHost.dll
+C:\Users\Me\Desktop\NEW\YourPlace\API\bin\System.Web.Mvc.dll
+C:\Users\Me\Desktop\NEW\YourPlace\API\bin\System.Web.Optimization.dll
+C:\Users\Me\Desktop\NEW\YourPlace\API\bin\System.Web.Razor.dll
+C:\Users\Me\Desktop\NEW\YourPlace\API\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Me\Desktop\NEW\YourPlace\API\bin\System.Web.WebPages.dll
+C:\Users\Me\Desktop\NEW\YourPlace\API\bin\System.Web.WebPages.Razor.dll
+C:\Users\Me\Desktop\NEW\YourPlace\API\bin\WebGrease.dll
+C:\Users\Me\Desktop\NEW\YourPlace\API\bin\Newtonsoft.Json.xml
+C:\Users\Me\Desktop\NEW\YourPlace\API\bin\System.Net.Http.Formatting.xml
+C:\Users\Me\Desktop\NEW\YourPlace\API\bin\System.Web.Helpers.xml
+C:\Users\Me\Desktop\NEW\YourPlace\API\bin\System.Web.Http.xml
+C:\Users\Me\Desktop\NEW\YourPlace\API\bin\System.Web.Http.WebHost.xml
+C:\Users\Me\Desktop\NEW\YourPlace\API\bin\System.Web.Mvc.xml
+C:\Users\Me\Desktop\NEW\YourPlace\API\bin\System.Web.Optimization.xml
+C:\Users\Me\Desktop\NEW\YourPlace\API\bin\System.Web.Razor.xml
+C:\Users\Me\Desktop\NEW\YourPlace\API\bin\System.Web.WebPages.xml
+C:\Users\Me\Desktop\NEW\YourPlace\API\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Me\Desktop\NEW\YourPlace\API\bin\System.Web.WebPages.Razor.xml
+C:\Users\Me\Desktop\NEW\YourPlace\API\bin\Antlr3.Runtime.pdb
+C:\Users\Me\Desktop\NEW\YourPlace\API\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Me\Desktop\NEW\YourPlace\API\obj\Debug\API.csproj.CopyComplete
+C:\Users\Me\Desktop\NEW\YourPlace\API\obj\Debug\API.dll
+C:\Users\Me\Desktop\NEW\YourPlace\API\obj\Debug\API.pdb
+C:\Users\Me\Desktop\NEW\YourPlace\API\bin\BLL.dll
+C:\Users\Me\Desktop\NEW\YourPlace\API\bin\Common.dll
+C:\Users\Me\Desktop\NEW\YourPlace\API\bin\BLL.pdb
+C:\Users\Me\Desktop\NEW\YourPlace\API\bin\Common.pdb
+D:\שונות\שרהלה\מחשבים\YourPlace\YourPlace\YourPlace\API\obj\Debug\API.csprojAssemblyReference.cache
+D:\שונות\שרהלה\מחשבים\YourPlace\YourPlace\YourPlace\API\obj\Debug\API.csproj.CoreCompileInputs.cache
+D:\שונות\שרהלה\מחשבים\YourPlace\YourPlace\YourPlace\API\obj\Debug\API.dll
+D:\שונות\שרהלה\מחשבים\YourPlace\YourPlace\YourPlace\API\obj\Debug\API.pdb
+D:\שונות\שרהלה\מחשבים\YourPlace\YourPlace\YourPlace\API\bin\API.dll.config
+D:\שונות\שרהלה\מחשבים\YourPlace\YourPlace\YourPlace\API\bin\API.dll
+D:\שונות\שרהלה\מחשבים\YourPlace\YourPlace\YourPlace\API\bin\API.pdb
+D:\שונות\שרהלה\מחשבים\YourPlace\YourPlace\YourPlace\API\bin\roslyn\csc.exe
+D:\שונות\שרהלה\מחשבים\YourPlace\YourPlace\YourPlace\API\bin\roslyn\csc.exe.config
+D:\שונות\שרהלה\מחשבים\YourPlace\YourPlace\YourPlace\API\bin\roslyn\csc.rsp
+D:\שונות\שרהלה\מחשבים\YourPlace\YourPlace\YourPlace\API\bin\roslyn\csi.exe
+D:\שונות\שרהלה\מחשבים\YourPlace\YourPlace\YourPlace\API\bin\roslyn\csi.exe.config
+D:\שונות\שרהלה\מחשבים\YourPlace\YourPlace\YourPlace\API\bin\roslyn\csi.rsp
+D:\שונות\שרהלה\מחשבים\YourPlace\YourPlace\YourPlace\API\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\שונות\שרהלה\מחשבים\YourPlace\YourPlace\YourPlace\API\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\שונות\שרהלה\מחשבים\YourPlace\YourPlace\YourPlace\API\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\שונות\שרהלה\מחשבים\YourPlace\YourPlace\YourPlace\API\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\שונות\שרהלה\מחשבים\YourPlace\YourPlace\YourPlace\API\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\שונות\שרהלה\מחשבים\YourPlace\YourPlace\YourPlace\API\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\שונות\שרהלה\מחשבים\YourPlace\YourPlace\YourPlace\API\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\שונות\שרהלה\מחשבים\YourPlace\YourPlace\YourPlace\API\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\שונות\שרהלה\מחשבים\YourPlace\YourPlace\YourPlace\API\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\שונות\שרהלה\מחשבים\YourPlace\YourPlace\YourPlace\API\bin\roslyn\Microsoft.Managed.Core.targets
+D:\שונות\שרהלה\מחשבים\YourPlace\YourPlace\YourPlace\API\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\שונות\שרהלה\מחשבים\YourPlace\YourPlace\YourPlace\API\bin\roslyn\Microsoft.Win32.Primitives.dll
+D:\שונות\שרהלה\מחשבים\YourPlace\YourPlace\YourPlace\API\bin\roslyn\System.AppContext.dll
+D:\שונות\שרהלה\מחשבים\YourPlace\YourPlace\YourPlace\API\bin\roslyn\System.Collections.Immutable.dll
+D:\שונות\שרהלה\מחשבים\YourPlace\YourPlace\YourPlace\API\bin\roslyn\System.Console.dll
+D:\שונות\שרהלה\מחשבים\YourPlace\YourPlace\YourPlace\API\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+D:\שונות\שרהלה\מחשבים\YourPlace\YourPlace\YourPlace\API\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\שונות\שרהלה\מחשבים\YourPlace\YourPlace\YourPlace\API\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\שונות\שרהלה\מחשבים\YourPlace\YourPlace\YourPlace\API\bin\roslyn\System.Globalization.Calendars.dll
+D:\שונות\שרהלה\מחשבים\YourPlace\YourPlace\YourPlace\API\bin\roslyn\System.IO.Compression.dll
+D:\שונות\שרהלה\מחשבים\YourPlace\YourPlace\YourPlace\API\bin\roslyn\System.IO.Compression.ZipFile.dll
+D:\שונות\שרהלה\מחשבים\YourPlace\YourPlace\YourPlace\API\bin\roslyn\System.IO.FileSystem.dll
+D:\שונות\שרהלה\מחשבים\YourPlace\YourPlace\YourPlace\API\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\שונות\שרהלה\מחשבים\YourPlace\YourPlace\YourPlace\API\bin\roslyn\System.Net.Http.dll
+D:\שונות\שרהלה\מחשבים\YourPlace\YourPlace\YourPlace\API\bin\roslyn\System.Net.Sockets.dll
+D:\שונות\שרהלה\מחשבים\YourPlace\YourPlace\YourPlace\API\bin\roslyn\System.Reflection.Metadata.dll
+D:\שונות\שרהלה\מחשבים\YourPlace\YourPlace\YourPlace\API\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+D:\שונות\שרהלה\מחשבים\YourPlace\YourPlace\YourPlace\API\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\שונות\שרהלה\מחשבים\YourPlace\YourPlace\YourPlace\API\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\שונות\שרהלה\מחשבים\YourPlace\YourPlace\YourPlace\API\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\שונות\שרהלה\מחשבים\YourPlace\YourPlace\YourPlace\API\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\שונות\שרהלה\מחשבים\YourPlace\YourPlace\YourPlace\API\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\שונות\שרהלה\מחשבים\YourPlace\YourPlace\YourPlace\API\bin\roslyn\System.Threading.Tasks.Extensions.dll
+D:\שונות\שרהלה\מחשבים\YourPlace\YourPlace\YourPlace\API\bin\roslyn\System.ValueTuple.dll
+D:\שונות\שרהלה\מחשבים\YourPlace\YourPlace\YourPlace\API\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\שונות\שרהלה\מחשבים\YourPlace\YourPlace\YourPlace\API\bin\roslyn\System.Xml.XmlDocument.dll
+D:\שונות\שרהלה\מחשבים\YourPlace\YourPlace\YourPlace\API\bin\roslyn\System.Xml.XPath.dll
+D:\שונות\שרהלה\מחשבים\YourPlace\YourPlace\YourPlace\API\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\שונות\שרהלה\מחשבים\YourPlace\YourPlace\YourPlace\API\bin\roslyn\vbc.exe
+D:\שונות\שרהלה\מחשבים\YourPlace\YourPlace\YourPlace\API\bin\roslyn\vbc.exe.config
+D:\שונות\שרהלה\מחשבים\YourPlace\YourPlace\YourPlace\API\bin\roslyn\vbc.rsp
+D:\שונות\שרהלה\מחשבים\YourPlace\YourPlace\YourPlace\API\bin\roslyn\VBCSCompiler.exe
+D:\שונות\שרהלה\מחשבים\YourPlace\YourPlace\YourPlace\API\bin\roslyn\VBCSCompiler.exe.config
+D:\שונות\שרהלה\מחשבים\YourPlace\YourPlace\YourPlace\API\bin\Antlr3.Runtime.dll
+D:\שונות\שרהלה\מחשבים\YourPlace\YourPlace\YourPlace\API\bin\BLL.dll
+D:\שונות\שרהלה\מחשבים\YourPlace\YourPlace\YourPlace\API\bin\Common.dll
+D:\שונות\שרהלה\מחשבים\YourPlace\YourPlace\YourPlace\API\bin\EntityFramework.dll
+D:\שונות\שרהלה\מחשבים\YourPlace\YourPlace\YourPlace\API\bin\EntityFramework.SqlServer.dll
+D:\שונות\שרהלה\מחשבים\YourPlace\YourPlace\YourPlace\API\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\שונות\שרהלה\מחשבים\YourPlace\YourPlace\YourPlace\API\bin\Microsoft.Web.Infrastructure.dll
+D:\שונות\שרהלה\מחשבים\YourPlace\YourPlace\YourPlace\API\bin\Newtonsoft.Json.dll
+D:\שונות\שרהלה\מחשבים\YourPlace\YourPlace\YourPlace\API\bin\System.Net.Http.Formatting.dll
+D:\שונות\שרהלה\מחשבים\YourPlace\YourPlace\YourPlace\API\bin\System.Web.Helpers.dll
+D:\שונות\שרהלה\מחשבים\YourPlace\YourPlace\YourPlace\API\bin\System.Web.Http.dll
+D:\שונות\שרהלה\מחשבים\YourPlace\YourPlace\YourPlace\API\bin\System.Web.Http.WebHost.dll
+D:\שונות\שרהלה\מחשבים\YourPlace\YourPlace\YourPlace\API\bin\System.Web.Mvc.dll
+D:\שונות\שרהלה\מחשבים\YourPlace\YourPlace\YourPlace\API\bin\System.Web.Optimization.dll
+D:\שונות\שרהלה\מחשבים\YourPlace\YourPlace\YourPlace\API\bin\System.Web.Razor.dll
+D:\שונות\שרהלה\מחשבים\YourPlace\YourPlace\YourPlace\API\bin\System.Web.WebPages.Deployment.dll
+D:\שונות\שרהלה\מחשבים\YourPlace\YourPlace\YourPlace\API\bin\System.Web.WebPages.dll
+D:\שונות\שרהלה\מחשבים\YourPlace\YourPlace\YourPlace\API\bin\System.Web.WebPages.Razor.dll
+D:\שונות\שרהלה\מחשבים\YourPlace\YourPlace\YourPlace\API\bin\WebGrease.dll
+D:\שונות\שרהלה\מחשבים\YourPlace\YourPlace\YourPlace\API\bin\DAL.dll
+D:\שונות\שרהלה\מחשבים\YourPlace\YourPlace\YourPlace\API\bin\Converters.dll
+D:\שונות\שרהלה\מחשבים\YourPlace\YourPlace\YourPlace\API\bin\BLL.pdb
+D:\שונות\שרהלה\מחשבים\YourPlace\YourPlace\YourPlace\API\bin\Common.pdb
+D:\שונות\שרהלה\מחשבים\YourPlace\YourPlace\YourPlace\API\bin\EntityFramework.xml
+D:\שונות\שרהלה\מחשבים\YourPlace\YourPlace\YourPlace\API\bin\EntityFramework.SqlServer.xml
+D:\שונות\שרהלה\מחשבים\YourPlace\YourPlace\YourPlace\API\bin\Newtonsoft.Json.xml
+D:\שונות\שרהלה\מחשבים\YourPlace\YourPlace\YourPlace\API\bin\System.Net.Http.Formatting.xml
+D:\שונות\שרהלה\מחשבים\YourPlace\YourPlace\YourPlace\API\bin\System.Web.Helpers.xml
+D:\שונות\שרהלה\מחשבים\YourPlace\YourPlace\YourPlace\API\bin\System.Web.Http.xml
+D:\שונות\שרהלה\מחשבים\YourPlace\YourPlace\YourPlace\API\bin\System.Web.Http.WebHost.xml
+D:\שונות\שרהלה\מחשבים\YourPlace\YourPlace\YourPlace\API\bin\System.Web.Mvc.xml
+D:\שונות\שרהלה\מחשבים\YourPlace\YourPlace\YourPlace\API\bin\System.Web.Optimization.xml
+D:\שונות\שרהלה\מחשבים\YourPlace\YourPlace\YourPlace\API\bin\System.Web.Razor.xml
+D:\שונות\שרהלה\מחשבים\YourPlace\YourPlace\YourPlace\API\bin\System.Web.WebPages.xml
+D:\שונות\שרהלה\מחשבים\YourPlace\YourPlace\YourPlace\API\bin\System.Web.WebPages.Deployment.xml
+D:\שונות\שרהלה\מחשבים\YourPlace\YourPlace\YourPlace\API\bin\System.Web.WebPages.Razor.xml
+D:\שונות\שרהלה\מחשבים\YourPlace\YourPlace\YourPlace\API\bin\Antlr3.Runtime.pdb
+D:\שונות\שרהלה\מחשבים\YourPlace\YourPlace\YourPlace\API\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\שונות\שרהלה\מחשבים\YourPlace\YourPlace\YourPlace\API\bin\DAL.pdb
+D:\שונות\שרהלה\מחשבים\YourPlace\YourPlace\YourPlace\API\bin\DAL.dll.config
+D:\שונות\שרהלה\מחשבים\YourPlace\YourPlace\YourPlace\API\bin\Converters.pdb
+D:\שונות\שרהלה\מחשבים\YourPlace\YourPlace\YourPlace\API\obj\Debug\API.csproj.CopyComplete
+D:\user\Desktop\YourPlace\Your_Place\API\bin\API.dll.config
+D:\user\Desktop\YourPlace\Your_Place\API\bin\API.dll
+D:\user\Desktop\YourPlace\Your_Place\API\bin\API.pdb
+D:\user\Desktop\YourPlace\Your_Place\API\bin\roslyn\csc.exe
+D:\user\Desktop\YourPlace\Your_Place\API\bin\roslyn\csc.exe.config
+D:\user\Desktop\YourPlace\Your_Place\API\bin\roslyn\csc.rsp
+D:\user\Desktop\YourPlace\Your_Place\API\bin\roslyn\csi.exe
+D:\user\Desktop\YourPlace\Your_Place\API\bin\roslyn\csi.exe.config
+D:\user\Desktop\YourPlace\Your_Place\API\bin\roslyn\csi.rsp
+D:\user\Desktop\YourPlace\Your_Place\API\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\user\Desktop\YourPlace\Your_Place\API\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\user\Desktop\YourPlace\Your_Place\API\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\user\Desktop\YourPlace\Your_Place\API\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\user\Desktop\YourPlace\Your_Place\API\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\user\Desktop\YourPlace\Your_Place\API\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\user\Desktop\YourPlace\Your_Place\API\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\user\Desktop\YourPlace\Your_Place\API\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\user\Desktop\YourPlace\Your_Place\API\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\user\Desktop\YourPlace\Your_Place\API\bin\roslyn\Microsoft.Managed.Core.targets
+D:\user\Desktop\YourPlace\Your_Place\API\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\user\Desktop\YourPlace\Your_Place\API\bin\roslyn\Microsoft.Win32.Primitives.dll
+D:\user\Desktop\YourPlace\Your_Place\API\bin\roslyn\System.AppContext.dll
+D:\user\Desktop\YourPlace\Your_Place\API\bin\roslyn\System.Collections.Immutable.dll
+D:\user\Desktop\YourPlace\Your_Place\API\bin\roslyn\System.Console.dll
+D:\user\Desktop\YourPlace\Your_Place\API\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+D:\user\Desktop\YourPlace\Your_Place\API\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\user\Desktop\YourPlace\Your_Place\API\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\user\Desktop\YourPlace\Your_Place\API\bin\roslyn\System.Globalization.Calendars.dll
+D:\user\Desktop\YourPlace\Your_Place\API\bin\roslyn\System.IO.Compression.dll
+D:\user\Desktop\YourPlace\Your_Place\API\bin\roslyn\System.IO.Compression.ZipFile.dll
+D:\user\Desktop\YourPlace\Your_Place\API\bin\roslyn\System.IO.FileSystem.dll
+D:\user\Desktop\YourPlace\Your_Place\API\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\user\Desktop\YourPlace\Your_Place\API\bin\roslyn\System.Net.Http.dll
+D:\user\Desktop\YourPlace\Your_Place\API\bin\roslyn\System.Net.Sockets.dll
+D:\user\Desktop\YourPlace\Your_Place\API\bin\roslyn\System.Reflection.Metadata.dll
+D:\user\Desktop\YourPlace\Your_Place\API\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+D:\user\Desktop\YourPlace\Your_Place\API\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\user\Desktop\YourPlace\Your_Place\API\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\user\Desktop\YourPlace\Your_Place\API\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\user\Desktop\YourPlace\Your_Place\API\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\user\Desktop\YourPlace\Your_Place\API\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\user\Desktop\YourPlace\Your_Place\API\bin\roslyn\System.Threading.Tasks.Extensions.dll
+D:\user\Desktop\YourPlace\Your_Place\API\bin\roslyn\System.ValueTuple.dll
+D:\user\Desktop\YourPlace\Your_Place\API\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\user\Desktop\YourPlace\Your_Place\API\bin\roslyn\System.Xml.XmlDocument.dll
+D:\user\Desktop\YourPlace\Your_Place\API\bin\roslyn\System.Xml.XPath.dll
+D:\user\Desktop\YourPlace\Your_Place\API\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\user\Desktop\YourPlace\Your_Place\API\bin\roslyn\vbc.exe
+D:\user\Desktop\YourPlace\Your_Place\API\bin\roslyn\vbc.exe.config
+D:\user\Desktop\YourPlace\Your_Place\API\bin\roslyn\vbc.rsp
+D:\user\Desktop\YourPlace\Your_Place\API\bin\roslyn\VBCSCompiler.exe
+D:\user\Desktop\YourPlace\Your_Place\API\bin\roslyn\VBCSCompiler.exe.config
+D:\user\Desktop\YourPlace\Your_Place\API\bin\Antlr3.Runtime.dll
+D:\user\Desktop\YourPlace\Your_Place\API\bin\BLL.dll
+D:\user\Desktop\YourPlace\Your_Place\API\bin\Common.dll
+D:\user\Desktop\YourPlace\Your_Place\API\bin\EntityFramework.dll
+D:\user\Desktop\YourPlace\Your_Place\API\bin\EntityFramework.SqlServer.dll
+D:\user\Desktop\YourPlace\Your_Place\API\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\user\Desktop\YourPlace\Your_Place\API\bin\Microsoft.Web.Infrastructure.dll
+D:\user\Desktop\YourPlace\Your_Place\API\bin\Newtonsoft.Json.dll
+D:\user\Desktop\YourPlace\Your_Place\API\bin\System.Net.Http.Formatting.dll
+D:\user\Desktop\YourPlace\Your_Place\API\bin\System.Web.Helpers.dll
+D:\user\Desktop\YourPlace\Your_Place\API\bin\System.Web.Http.dll
+D:\user\Desktop\YourPlace\Your_Place\API\bin\System.Web.Http.WebHost.dll
+D:\user\Desktop\YourPlace\Your_Place\API\bin\System.Web.Mvc.dll
+D:\user\Desktop\YourPlace\Your_Place\API\bin\System.Web.Optimization.dll
+D:\user\Desktop\YourPlace\Your_Place\API\bin\System.Web.Razor.dll
+D:\user\Desktop\YourPlace\Your_Place\API\bin\System.Web.WebPages.Deployment.dll
+D:\user\Desktop\YourPlace\Your_Place\API\bin\System.Web.WebPages.dll
+D:\user\Desktop\YourPlace\Your_Place\API\bin\System.Web.WebPages.Razor.dll
+D:\user\Desktop\YourPlace\Your_Place\API\bin\WebGrease.dll
+D:\user\Desktop\YourPlace\Your_Place\API\bin\DAL.dll
+D:\user\Desktop\YourPlace\Your_Place\API\bin\Converters.dll
+D:\user\Desktop\YourPlace\Your_Place\API\bin\BLL.pdb
+D:\user\Desktop\YourPlace\Your_Place\API\bin\Common.pdb
+D:\user\Desktop\YourPlace\Your_Place\API\bin\EntityFramework.xml
+D:\user\Desktop\YourPlace\Your_Place\API\bin\EntityFramework.SqlServer.xml
+D:\user\Desktop\YourPlace\Your_Place\API\bin\Newtonsoft.Json.xml
+D:\user\Desktop\YourPlace\Your_Place\API\bin\System.Net.Http.Formatting.xml
+D:\user\Desktop\YourPlace\Your_Place\API\bin\System.Web.Helpers.xml
+D:\user\Desktop\YourPlace\Your_Place\API\bin\System.Web.Http.xml
+D:\user\Desktop\YourPlace\Your_Place\API\bin\System.Web.Http.WebHost.xml
+D:\user\Desktop\YourPlace\Your_Place\API\bin\System.Web.Mvc.xml
+D:\user\Desktop\YourPlace\Your_Place\API\bin\System.Web.Optimization.xml
+D:\user\Desktop\YourPlace\Your_Place\API\bin\System.Web.Razor.xml
+D:\user\Desktop\YourPlace\Your_Place\API\bin\System.Web.WebPages.xml
+D:\user\Desktop\YourPlace\Your_Place\API\bin\System.Web.WebPages.Deployment.xml
+D:\user\Desktop\YourPlace\Your_Place\API\bin\System.Web.WebPages.Razor.xml
+D:\user\Desktop\YourPlace\Your_Place\API\bin\Antlr3.Runtime.pdb
+D:\user\Desktop\YourPlace\Your_Place\API\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\user\Desktop\YourPlace\Your_Place\API\bin\DAL.pdb
+D:\user\Desktop\YourPlace\Your_Place\API\bin\DAL.dll.config
+D:\user\Desktop\YourPlace\Your_Place\API\bin\Converters.pdb
+D:\user\Desktop\YourPlace\Your_Place\API\obj\Debug\API.csprojAssemblyReference.cache
+D:\user\Desktop\YourPlace\Your_Place\API\obj\Debug\API.csproj.CoreCompileInputs.cache
+D:\user\Desktop\YourPlace\Your_Place\API\obj\Debug\API.csproj.CopyComplete
+D:\user\Desktop\YourPlace\Your_Place\API\obj\Debug\API.dll
+D:\user\Desktop\YourPlace\Your_Place\API\obj\Debug\API.pdb
+C:\Your Place\Server\Your_Place\API\bin\API.dll.config
+C:\Your Place\Server\Your_Place\API\bin\API.dll
+C:\Your Place\Server\Your_Place\API\bin\API.pdb
+C:\Your Place\Server\Your_Place\API\bin\roslyn\csc.exe
+C:\Your Place\Server\Your_Place\API\bin\roslyn\csc.exe.config
+C:\Your Place\Server\Your_Place\API\bin\roslyn\csc.rsp
+C:\Your Place\Server\Your_Place\API\bin\roslyn\csi.exe
+C:\Your Place\Server\Your_Place\API\bin\roslyn\csi.exe.config
+C:\Your Place\Server\Your_Place\API\bin\roslyn\csi.rsp
+C:\Your Place\Server\Your_Place\API\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Your Place\Server\Your_Place\API\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Your Place\Server\Your_Place\API\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Your Place\Server\Your_Place\API\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Your Place\Server\Your_Place\API\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Your Place\Server\Your_Place\API\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Your Place\Server\Your_Place\API\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Your Place\Server\Your_Place\API\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Your Place\Server\Your_Place\API\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Your Place\Server\Your_Place\API\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Your Place\Server\Your_Place\API\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Your Place\Server\Your_Place\API\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Your Place\Server\Your_Place\API\bin\roslyn\System.AppContext.dll
+C:\Your Place\Server\Your_Place\API\bin\roslyn\System.Collections.Immutable.dll
+C:\Your Place\Server\Your_Place\API\bin\roslyn\System.Console.dll
+C:\Your Place\Server\Your_Place\API\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Your Place\Server\Your_Place\API\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Your Place\Server\Your_Place\API\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Your Place\Server\Your_Place\API\bin\roslyn\System.Globalization.Calendars.dll
+C:\Your Place\Server\Your_Place\API\bin\roslyn\System.IO.Compression.dll
+C:\Your Place\Server\Your_Place\API\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Your Place\Server\Your_Place\API\bin\roslyn\System.IO.FileSystem.dll
+C:\Your Place\Server\Your_Place\API\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Your Place\Server\Your_Place\API\bin\roslyn\System.Net.Http.dll
+C:\Your Place\Server\Your_Place\API\bin\roslyn\System.Net.Sockets.dll
+C:\Your Place\Server\Your_Place\API\bin\roslyn\System.Reflection.Metadata.dll
+C:\Your Place\Server\Your_Place\API\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Your Place\Server\Your_Place\API\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Your Place\Server\Your_Place\API\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Your Place\Server\Your_Place\API\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Your Place\Server\Your_Place\API\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Your Place\Server\Your_Place\API\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Your Place\Server\Your_Place\API\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Your Place\Server\Your_Place\API\bin\roslyn\System.ValueTuple.dll
+C:\Your Place\Server\Your_Place\API\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Your Place\Server\Your_Place\API\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Your Place\Server\Your_Place\API\bin\roslyn\System.Xml.XPath.dll
+C:\Your Place\Server\Your_Place\API\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Your Place\Server\Your_Place\API\bin\roslyn\vbc.exe
+C:\Your Place\Server\Your_Place\API\bin\roslyn\vbc.exe.config
+C:\Your Place\Server\Your_Place\API\bin\roslyn\vbc.rsp
+C:\Your Place\Server\Your_Place\API\bin\roslyn\VBCSCompiler.exe
+C:\Your Place\Server\Your_Place\API\bin\roslyn\VBCSCompiler.exe.config
+C:\Your Place\Server\Your_Place\API\bin\Antlr3.Runtime.dll
+C:\Your Place\Server\Your_Place\API\bin\BLL.dll
+C:\Your Place\Server\Your_Place\API\bin\Common.dll
+C:\Your Place\Server\Your_Place\API\bin\EntityFramework.dll
+C:\Your Place\Server\Your_Place\API\bin\EntityFramework.SqlServer.dll
+C:\Your Place\Server\Your_Place\API\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Your Place\Server\Your_Place\API\bin\Microsoft.Web.Infrastructure.dll
+C:\Your Place\Server\Your_Place\API\bin\Newtonsoft.Json.dll
+C:\Your Place\Server\Your_Place\API\bin\System.Net.Http.Formatting.dll
+C:\Your Place\Server\Your_Place\API\bin\System.Web.Helpers.dll
+C:\Your Place\Server\Your_Place\API\bin\System.Web.Http.dll
+C:\Your Place\Server\Your_Place\API\bin\System.Web.Http.WebHost.dll
+C:\Your Place\Server\Your_Place\API\bin\System.Web.Mvc.dll
+C:\Your Place\Server\Your_Place\API\bin\System.Web.Optimization.dll
+C:\Your Place\Server\Your_Place\API\bin\System.Web.Razor.dll
+C:\Your Place\Server\Your_Place\API\bin\System.Web.WebPages.Deployment.dll
+C:\Your Place\Server\Your_Place\API\bin\System.Web.WebPages.dll
+C:\Your Place\Server\Your_Place\API\bin\System.Web.WebPages.Razor.dll
+C:\Your Place\Server\Your_Place\API\bin\WebGrease.dll
+C:\Your Place\Server\Your_Place\API\bin\DAL.dll
+C:\Your Place\Server\Your_Place\API\bin\Converters.dll
+C:\Your Place\Server\Your_Place\API\bin\BLL.pdb
+C:\Your Place\Server\Your_Place\API\bin\Common.pdb
+C:\Your Place\Server\Your_Place\API\bin\EntityFramework.xml
+C:\Your Place\Server\Your_Place\API\bin\EntityFramework.SqlServer.xml
+C:\Your Place\Server\Your_Place\API\bin\Newtonsoft.Json.xml
+C:\Your Place\Server\Your_Place\API\bin\System.Net.Http.Formatting.xml
+C:\Your Place\Server\Your_Place\API\bin\System.Web.Helpers.xml
+C:\Your Place\Server\Your_Place\API\bin\System.Web.Http.xml
+C:\Your Place\Server\Your_Place\API\bin\System.Web.Http.WebHost.xml
+C:\Your Place\Server\Your_Place\API\bin\System.Web.Mvc.xml
+C:\Your Place\Server\Your_Place\API\bin\System.Web.Optimization.xml
+C:\Your Place\Server\Your_Place\API\bin\System.Web.Razor.xml
+C:\Your Place\Server\Your_Place\API\bin\System.Web.WebPages.xml
+C:\Your Place\Server\Your_Place\API\bin\System.Web.WebPages.Deployment.xml
+C:\Your Place\Server\Your_Place\API\bin\System.Web.WebPages.Razor.xml
+C:\Your Place\Server\Your_Place\API\bin\Antlr3.Runtime.pdb
+C:\Your Place\Server\Your_Place\API\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Your Place\Server\Your_Place\API\bin\DAL.pdb
+C:\Your Place\Server\Your_Place\API\bin\DAL.dll.config
+C:\Your Place\Server\Your_Place\API\bin\Converters.pdb
+C:\Your Place\Server\Your_Place\API\obj\Debug\API.csprojAssemblyReference.cache
+C:\Your Place\Server\Your_Place\API\obj\Debug\API.csproj.CoreCompileInputs.cache
+C:\Your Place\Server\Your_Place\API\obj\Debug\API.csproj.CopyComplete
+C:\Your Place\Server\Your_Place\API\obj\Debug\API.dll
+C:\Your Place\Server\Your_Place\API\obj\Debug\API.pdb
+C:\Your Place\Server\Your_Place\API\bin\System.Web.Cors.dll
+C:\Your Place\Server\Your_Place\API\bin\System.Web.Http.Cors.dll
+C:\Your Place\Server\Your_Place\API\bin\System.Web.Http.Cors.xml
+C:\Users\Angular\Desktop\פרויקט\YourPlace\API\obj\Debug\API.csprojAssemblyReference.cache
+C:\Users\Angular\Desktop\פרויקט\YourPlace\API\obj\Debug\API.csproj.CoreCompileInputs.cache
+C:\Users\Angular\Desktop\פרויקט\YourPlace\API\obj\Debug\API.dll
+C:\Users\Angular\Desktop\פרויקט\YourPlace\API\obj\Debug\API.pdb
+C:\Users\Angular\Desktop\פרויקט\YourPlace\API\bin\API.dll.config
+C:\Users\Angular\Desktop\פרויקט\YourPlace\API\bin\API.dll
+C:\Users\Angular\Desktop\פרויקט\YourPlace\API\bin\API.pdb
+C:\Users\Angular\Desktop\פרויקט\YourPlace\API\bin\roslyn\csc.exe
+C:\Users\Angular\Desktop\פרויקט\YourPlace\API\bin\roslyn\csc.exe.config
+C:\Users\Angular\Desktop\פרויקט\YourPlace\API\bin\roslyn\csc.rsp
+C:\Users\Angular\Desktop\פרויקט\YourPlace\API\bin\roslyn\csi.exe
+C:\Users\Angular\Desktop\פרויקט\YourPlace\API\bin\roslyn\csi.exe.config
+C:\Users\Angular\Desktop\פרויקט\YourPlace\API\bin\roslyn\csi.rsp
+C:\Users\Angular\Desktop\פרויקט\YourPlace\API\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Angular\Desktop\פרויקט\YourPlace\API\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Angular\Desktop\פרויקט\YourPlace\API\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Angular\Desktop\פרויקט\YourPlace\API\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Angular\Desktop\פרויקט\YourPlace\API\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Angular\Desktop\פרויקט\YourPlace\API\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Angular\Desktop\פרויקט\YourPlace\API\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Angular\Desktop\פרויקט\YourPlace\API\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Angular\Desktop\פרויקט\YourPlace\API\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Angular\Desktop\פרויקט\YourPlace\API\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\Angular\Desktop\פרויקט\YourPlace\API\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Angular\Desktop\פרויקט\YourPlace\API\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\Angular\Desktop\פרויקט\YourPlace\API\bin\roslyn\System.AppContext.dll
+C:\Users\Angular\Desktop\פרויקט\YourPlace\API\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Angular\Desktop\פרויקט\YourPlace\API\bin\roslyn\System.Console.dll
+C:\Users\Angular\Desktop\פרויקט\YourPlace\API\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Angular\Desktop\פרויקט\YourPlace\API\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Angular\Desktop\פרויקט\YourPlace\API\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Angular\Desktop\פרויקט\YourPlace\API\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\Angular\Desktop\פרויקט\YourPlace\API\bin\roslyn\System.IO.Compression.dll
+C:\Users\Angular\Desktop\פרויקט\YourPlace\API\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\Angular\Desktop\פרויקט\YourPlace\API\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Angular\Desktop\פרויקט\YourPlace\API\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Angular\Desktop\פרויקט\YourPlace\API\bin\roslyn\System.Net.Http.dll
+C:\Users\Angular\Desktop\פרויקט\YourPlace\API\bin\roslyn\System.Net.Sockets.dll
+C:\Users\Angular\Desktop\פרויקט\YourPlace\API\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Angular\Desktop\פרויקט\YourPlace\API\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\Angular\Desktop\פרויקט\YourPlace\API\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\Angular\Desktop\פרויקט\YourPlace\API\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\Angular\Desktop\פרויקט\YourPlace\API\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\Angular\Desktop\פרויקט\YourPlace\API\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Angular\Desktop\פרויקט\YourPlace\API\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Angular\Desktop\פרויקט\YourPlace\API\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\Angular\Desktop\פרויקט\YourPlace\API\bin\roslyn\System.ValueTuple.dll
+C:\Users\Angular\Desktop\פרויקט\YourPlace\API\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\Angular\Desktop\פרויקט\YourPlace\API\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\Angular\Desktop\פרויקט\YourPlace\API\bin\roslyn\System.Xml.XPath.dll
+C:\Users\Angular\Desktop\פרויקט\YourPlace\API\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\Angular\Desktop\פרויקט\YourPlace\API\bin\roslyn\vbc.exe
+C:\Users\Angular\Desktop\פרויקט\YourPlace\API\bin\roslyn\vbc.exe.config
+C:\Users\Angular\Desktop\פרויקט\YourPlace\API\bin\roslyn\vbc.rsp
+C:\Users\Angular\Desktop\פרויקט\YourPlace\API\bin\roslyn\VBCSCompiler.exe
+C:\Users\Angular\Desktop\פרויקט\YourPlace\API\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Angular\Desktop\פרויקט\YourPlace\API\bin\Antlr3.Runtime.dll
+C:\Users\Angular\Desktop\פרויקט\YourPlace\API\bin\BLL.dll
+C:\Users\Angular\Desktop\פרויקט\YourPlace\API\bin\Common.dll
+C:\Users\Angular\Desktop\פרויקט\YourPlace\API\bin\EntityFramework.dll
+C:\Users\Angular\Desktop\פרויקט\YourPlace\API\bin\EntityFramework.SqlServer.dll
+C:\Users\Angular\Desktop\פרויקט\YourPlace\API\bin\Microsoft.AspNetCore.Cors.dll
+C:\Users\Angular\Desktop\פרויקט\YourPlace\API\bin\Microsoft.AspNetCore.Http.Abstractions.dll
+C:\Users\Angular\Desktop\פרויקט\YourPlace\API\bin\Microsoft.AspNetCore.Http.Extensions.dll
+C:\Users\Angular\Desktop\פרויקט\YourPlace\API\bin\Microsoft.AspNetCore.Http.Features.dll
+C:\Users\Angular\Desktop\פרויקט\YourPlace\API\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Angular\Desktop\פרויקט\YourPlace\API\bin\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\Angular\Desktop\פרויקט\YourPlace\API\bin\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\Angular\Desktop\פרויקט\YourPlace\API\bin\Microsoft.Extensions.FileProviders.Abstractions.dll
+C:\Users\Angular\Desktop\פרויקט\YourPlace\API\bin\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\Angular\Desktop\פרויקט\YourPlace\API\bin\Microsoft.Extensions.Options.dll
+C:\Users\Angular\Desktop\פרויקט\YourPlace\API\bin\Microsoft.Extensions.Primitives.dll
+C:\Users\Angular\Desktop\פרויקט\YourPlace\API\bin\Microsoft.Net.Http.Headers.dll
+C:\Users\Angular\Desktop\פרויקט\YourPlace\API\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Angular\Desktop\פרויקט\YourPlace\API\bin\Newtonsoft.Json.dll
+C:\Users\Angular\Desktop\פרויקט\YourPlace\API\bin\System.Buffers.dll
+C:\Users\Angular\Desktop\פרויקט\YourPlace\API\bin\System.ComponentModel.Annotations.dll
+C:\Users\Angular\Desktop\פרויקט\YourPlace\API\bin\System.Memory.dll
+C:\Users\Angular\Desktop\פרויקט\YourPlace\API\bin\System.Net.Http.Formatting.dll
+C:\Users\Angular\Desktop\פרויקט\YourPlace\API\bin\System.Numerics.Vectors.dll
+C:\Users\Angular\Desktop\פרויקט\YourPlace\API\bin\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Angular\Desktop\פרויקט\YourPlace\API\bin\System.Text.Encodings.Web.dll
+C:\Users\Angular\Desktop\פרויקט\YourPlace\API\bin\System.Web.Helpers.dll
+C:\Users\Angular\Desktop\פרויקט\YourPlace\API\bin\System.Web.Http.Cors.dll
+C:\Users\Angular\Desktop\פרויקט\YourPlace\API\bin\System.Web.Http.dll
+C:\Users\Angular\Desktop\פרויקט\YourPlace\API\bin\System.Web.Http.WebHost.dll
+C:\Users\Angular\Desktop\פרויקט\YourPlace\API\bin\System.Web.Mvc.dll
+C:\Users\Angular\Desktop\פרויקט\YourPlace\API\bin\System.Web.Optimization.dll
+C:\Users\Angular\Desktop\פרויקט\YourPlace\API\bin\System.Web.Razor.dll
+C:\Users\Angular\Desktop\פרויקט\YourPlace\API\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Angular\Desktop\פרויקט\YourPlace\API\bin\System.Web.WebPages.dll
+C:\Users\Angular\Desktop\פרויקט\YourPlace\API\bin\System.Web.WebPages.Razor.dll
+C:\Users\Angular\Desktop\פרויקט\YourPlace\API\bin\WebGrease.dll
+C:\Users\Angular\Desktop\פרויקט\YourPlace\API\bin\DAL.dll
+C:\Users\Angular\Desktop\פרויקט\YourPlace\API\bin\Converters.dll
+C:\Users\Angular\Desktop\פרויקט\YourPlace\API\bin\System.Web.Cors.dll
+C:\Users\Angular\Desktop\פרויקט\YourPlace\API\bin\BLL.pdb
+C:\Users\Angular\Desktop\פרויקט\YourPlace\API\bin\Common.pdb
+C:\Users\Angular\Desktop\פרויקט\YourPlace\API\bin\EntityFramework.xml
+C:\Users\Angular\Desktop\פרויקט\YourPlace\API\bin\EntityFramework.SqlServer.xml
+C:\Users\Angular\Desktop\פרויקט\YourPlace\API\bin\Microsoft.AspNetCore.Cors.xml
+C:\Users\Angular\Desktop\פרויקט\YourPlace\API\bin\Microsoft.AspNetCore.Http.Abstractions.xml
+C:\Users\Angular\Desktop\פרויקט\YourPlace\API\bin\Microsoft.AspNetCore.Http.Extensions.xml
+C:\Users\Angular\Desktop\פרויקט\YourPlace\API\bin\Microsoft.AspNetCore.Http.Features.xml
+C:\Users\Angular\Desktop\פרויקט\YourPlace\API\bin\Microsoft.Extensions.Configuration.Abstractions.xml
+C:\Users\Angular\Desktop\פרויקט\YourPlace\API\bin\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+C:\Users\Angular\Desktop\פרויקט\YourPlace\API\bin\Microsoft.Extensions.FileProviders.Abstractions.xml
+C:\Users\Angular\Desktop\פרויקט\YourPlace\API\bin\Microsoft.Extensions.Logging.Abstractions.xml
+C:\Users\Angular\Desktop\פרויקט\YourPlace\API\bin\Microsoft.Extensions.Options.xml
+C:\Users\Angular\Desktop\פרויקט\YourPlace\API\bin\Microsoft.Extensions.Primitives.xml
+C:\Users\Angular\Desktop\פרויקט\YourPlace\API\bin\Microsoft.Net.Http.Headers.xml
+C:\Users\Angular\Desktop\פרויקט\YourPlace\API\bin\System.Buffers.xml
+C:\Users\Angular\Desktop\פרויקט\YourPlace\API\bin\System.Memory.xml
+C:\Users\Angular\Desktop\פרויקט\YourPlace\API\bin\System.Numerics.Vectors.xml
+C:\Users\Angular\Desktop\פרויקט\YourPlace\API\bin\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\Angular\Desktop\פרויקט\YourPlace\API\bin\System.Text.Encodings.Web.xml
+C:\Users\Angular\Desktop\פרויקט\YourPlace\API\bin\System.Web.Http.xml
+C:\Users\Angular\Desktop\פרויקט\YourPlace\API\bin\System.Web.Http.Cors.xml
+C:\Users\Angular\Desktop\פרויקט\YourPlace\API\bin\Newtonsoft.Json.xml
+C:\Users\Angular\Desktop\פרויקט\YourPlace\API\bin\System.Net.Http.Formatting.xml
+C:\Users\Angular\Desktop\פרויקט\YourPlace\API\bin\System.Web.Helpers.xml
+C:\Users\Angular\Desktop\פרויקט\YourPlace\API\bin\System.Web.Http.WebHost.xml
+C:\Users\Angular\Desktop\פרויקט\YourPlace\API\bin\System.Web.Mvc.xml
+C:\Users\Angular\Desktop\פרויקט\YourPlace\API\bin\System.Web.Optimization.xml
+C:\Users\Angular\Desktop\פרויקט\YourPlace\API\bin\System.Web.Razor.xml
+C:\Users\Angular\Desktop\פרויקט\YourPlace\API\bin\System.Web.WebPages.xml
+C:\Users\Angular\Desktop\פרויקט\YourPlace\API\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Angular\Desktop\פרויקט\YourPlace\API\bin\System.Web.WebPages.Razor.xml
+C:\Users\Angular\Desktop\פרויקט\YourPlace\API\bin\Antlr3.Runtime.pdb
+C:\Users\Angular\Desktop\פרויקט\YourPlace\API\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Angular\Desktop\פרויקט\YourPlace\API\bin\DAL.pdb
+C:\Users\Angular\Desktop\פרויקט\YourPlace\API\bin\DAL.dll.config
+C:\Users\Angular\Desktop\פרויקט\YourPlace\API\bin\Converters.pdb
+C:\Users\Angular\Desktop\פרויקט\YourPlace\API\obj\Debug\API.csproj.CopyComplete
+C:\Your Place\Server\Your_Place\API\bin\Microsoft.AspNetCore.Cors.dll
+C:\Your Place\Server\Your_Place\API\bin\Microsoft.AspNetCore.Http.Abstractions.dll
+C:\Your Place\Server\Your_Place\API\bin\Microsoft.AspNetCore.Http.Extensions.dll
+C:\Your Place\Server\Your_Place\API\bin\Microsoft.AspNetCore.Http.Features.dll
+C:\Your Place\Server\Your_Place\API\bin\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Your Place\Server\Your_Place\API\bin\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Your Place\Server\Your_Place\API\bin\Microsoft.Extensions.FileProviders.Abstractions.dll
+C:\Your Place\Server\Your_Place\API\bin\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Your Place\Server\Your_Place\API\bin\Microsoft.Extensions.Options.dll
+C:\Your Place\Server\Your_Place\API\bin\Microsoft.Extensions.Primitives.dll
+C:\Your Place\Server\Your_Place\API\bin\Microsoft.Net.Http.Headers.dll
+C:\Your Place\Server\Your_Place\API\bin\System.Buffers.dll
+C:\Your Place\Server\Your_Place\API\bin\System.ComponentModel.Annotations.dll
+C:\Your Place\Server\Your_Place\API\bin\System.Memory.dll
+C:\Your Place\Server\Your_Place\API\bin\System.Numerics.Vectors.dll
+C:\Your Place\Server\Your_Place\API\bin\System.Runtime.CompilerServices.Unsafe.dll
+C:\Your Place\Server\Your_Place\API\bin\System.Text.Encodings.Web.dll
+C:\Your Place\Server\Your_Place\API\bin\Microsoft.AspNetCore.Cors.xml
+C:\Your Place\Server\Your_Place\API\bin\Microsoft.AspNetCore.Http.Abstractions.xml
+C:\Your Place\Server\Your_Place\API\bin\Microsoft.AspNetCore.Http.Extensions.xml
+C:\Your Place\Server\Your_Place\API\bin\Microsoft.AspNetCore.Http.Features.xml
+C:\Your Place\Server\Your_Place\API\bin\Microsoft.Extensions.Configuration.Abstractions.xml
+C:\Your Place\Server\Your_Place\API\bin\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+C:\Your Place\Server\Your_Place\API\bin\Microsoft.Extensions.FileProviders.Abstractions.xml
+C:\Your Place\Server\Your_Place\API\bin\Microsoft.Extensions.Logging.Abstractions.xml
+C:\Your Place\Server\Your_Place\API\bin\Microsoft.Extensions.Options.xml
+C:\Your Place\Server\Your_Place\API\bin\Microsoft.Extensions.Primitives.xml
+C:\Your Place\Server\Your_Place\API\bin\Microsoft.Net.Http.Headers.xml
+C:\Your Place\Server\Your_Place\API\bin\System.Buffers.xml
+C:\Your Place\Server\Your_Place\API\bin\System.Memory.xml
+C:\Your Place\Server\Your_Place\API\bin\System.Numerics.Vectors.xml
+C:\Your Place\Server\Your_Place\API\bin\System.Runtime.CompilerServices.Unsafe.xml
+C:\Your Place\Server\Your_Place\API\bin\System.Text.Encodings.Web.xml

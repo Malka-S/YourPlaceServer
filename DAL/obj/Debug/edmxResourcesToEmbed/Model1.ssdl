@@ -1,0 +1,263 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="YourPlaceModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="Event">
+    <Key>
+      <PropertyRef Name="event_id" />
+    </Key>
+    <Property Name="event_id" Type="int" Nullable="false" />
+    <Property Name="event_type_id" Type="int" />
+    <Property Name="event_des" Type="varchar" MaxLength="50" />
+    <Property Name="event_date" Type="datetime" Nullable="false" />
+    <Property Name="user_id" Type="int" />
+    <Property Name="invitation_file" Type="varchar" MaxLength="50" />
+    <Property Name="due_date" Type="datetime" Nullable="false" />
+    <Property Name="num_tables" Type="int" />
+    <Property Name="num_places_around_a_table" Type="int" />
+  </EntityType>
+  <EntityType Name="EventType">
+    <Key>
+      <PropertyRef Name="event_type_id" />
+    </Key>
+    <Property Name="event_type_id" Type="int" Nullable="false" />
+    <Property Name="event_type_des" Type="varchar" MaxLength="50" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Guest">
+    <Key>
+      <PropertyRef Name="guest_id" />
+    </Key>
+    <Property Name="guest_id" Type="int" Nullable="false" />
+    <Property Name="guest_first_name" Type="varchar" MaxLength="20" Nullable="false" />
+    <Property Name="guest_last_name" Type="varchar" MaxLength="20" Nullable="false" />
+    <Property Name="guest_tz" Type="varchar" MaxLength="10" />
+    <Property Name="guest_email" Type="varchar" MaxLength="30" Nullable="false" />
+    <Property Name="event_id" Type="int" />
+    <Property Name="gender" Type="varchar" MaxLength="10" Nullable="false" />
+    <Property Name="table_id" Type="int" />
+    <Property Name="guest_message_befor" Type="varchar" MaxLength="20" />
+    <Property Name="guest_message_after" Type="varchar" MaxLength="20" />
+    <Property Name="guest_catagory_id" Type="int" />
+  </EntityType>
+  <EntityType Name="Guest_catagory">
+    <Key>
+      <PropertyRef Name="guest_catagory_id" />
+    </Key>
+    <Property Name="guest_catagory_id" Type="int" Nullable="false" />
+    <Property Name="guest_catagory_des" Type="varchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="Guest_table">
+    <Key>
+      <PropertyRef Name="guests_table_id" />
+    </Key>
+    <Property Name="guests_table_id" Type="int" Nullable="false" />
+    <Property Name="table_id" Type="int" />
+    <Property Name="guest_id" Type="int" />
+  </EntityType>
+  <EntityType Name="guest_table_member">
+    <Key>
+      <PropertyRef Name="table_members_id" />
+    </Key>
+    <Property Name="table_members_id" Type="int" Nullable="false" />
+    <Property Name="guest_id" Type="int" />
+    <Property Name="friend_id" Type="int" />
+    <Property Name="like_or_not" Type="bit" />
+  </EntityType>
+  <EntityType Name="Table_category">
+    <Key>
+      <PropertyRef Name="category_id" />
+    </Key>
+    <Property Name="category_id" Type="int" Nullable="false" />
+    <Property Name="category_type" Type="varchar" MaxLength="20" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Tables">
+    <Key>
+      <PropertyRef Name="table_id" />
+    </Key>
+    <Property Name="table_id" Type="int" Nullable="false" />
+    <Property Name="category_id" Type="int" />
+    <Property Name="event_id" Type="int" />
+    <Property Name="table_title" Type="varchar" MaxLength="20" />
+    <Property Name="amount_of_places" Type="int" />
+  </EntityType>
+  <EntityType Name="Users">
+    <Key>
+      <PropertyRef Name="user_id" />
+    </Key>
+    <Property Name="user_id" Type="int" Nullable="false" />
+    <Property Name="user_last_name" Type="varchar" MaxLength="20" Nullable="false" />
+    <Property Name="user_first_name" Type="varchar" MaxLength="20" Nullable="false" />
+    <Property Name="user_phone_number" Type="varchar" MaxLength="10" Nullable="false" />
+    <Property Name="user_email" Type="varchar" MaxLength="30" Nullable="false" />
+    <Property Name="user_password" Type="varchar" MaxLength="30" Nullable="false" />
+  </EntityType>
+  <Association Name="FK__Event__event_typ__33D4B598">
+    <End Role="EventType" Type="Self.EventType" Multiplicity="0..1" />
+    <End Role="Event" Type="Self.Event" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="EventType">
+        <PropertyRef Name="event_type_id" />
+      </Principal>
+      <Dependent Role="Event">
+        <PropertyRef Name="event_type_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Event__user_id__34C8D9D1">
+    <End Role="Users" Type="Self.Users" Multiplicity="0..1" />
+    <End Role="Event" Type="Self.Event" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Users">
+        <PropertyRef Name="user_id" />
+      </Principal>
+      <Dependent Role="Event">
+        <PropertyRef Name="user_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Guest__event_id__37A5467C">
+    <End Role="Event" Type="Self.Event" Multiplicity="0..1" />
+    <End Role="Guest" Type="Self.Guest" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Event">
+        <PropertyRef Name="event_id" />
+      </Principal>
+      <Dependent Role="Guest">
+        <PropertyRef Name="event_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Guest__guest_cat__398D8EEE">
+    <End Role="Guest_catagory" Type="Self.Guest_catagory" Multiplicity="0..1" />
+    <End Role="Guest" Type="Self.Guest" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Guest_catagory">
+        <PropertyRef Name="guest_catagory_id" />
+      </Principal>
+      <Dependent Role="Guest">
+        <PropertyRef Name="guest_catagory_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Guest__table_id__38996AB5">
+    <End Role="Tables" Type="Self.Tables" Multiplicity="0..1" />
+    <End Role="Guest" Type="Self.Guest" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Tables">
+        <PropertyRef Name="table_id" />
+      </Principal>
+      <Dependent Role="Guest">
+        <PropertyRef Name="table_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__guest_tab__frien__3B75D760">
+    <End Role="Guest" Type="Self.Guest" Multiplicity="0..1" />
+    <End Role="guest_table_member" Type="Self.guest_table_member" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Guest">
+        <PropertyRef Name="guest_id" />
+      </Principal>
+      <Dependent Role="guest_table_member">
+        <PropertyRef Name="friend_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Guest_tab__guest__36B12243">
+    <End Role="Guest" Type="Self.Guest" Multiplicity="0..1" />
+    <End Role="Guest_table" Type="Self.Guest_table" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Guest">
+        <PropertyRef Name="guest_id" />
+      </Principal>
+      <Dependent Role="Guest_table">
+        <PropertyRef Name="guest_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__guest_tab__guest__3A81B327">
+    <End Role="Guest" Type="Self.Guest" Multiplicity="0..1" />
+    <End Role="guest_table_member" Type="Self.guest_table_member" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Guest">
+        <PropertyRef Name="guest_id" />
+      </Principal>
+      <Dependent Role="guest_table_member">
+        <PropertyRef Name="guest_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Guest_tab__table__35BCFE0A">
+    <End Role="Tables" Type="Self.Tables" Multiplicity="0..1" />
+    <End Role="Guest_table" Type="Self.Guest_table" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Tables">
+        <PropertyRef Name="table_id" />
+      </Principal>
+      <Dependent Role="Guest_table">
+        <PropertyRef Name="table_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Tables__category__3C69FB99">
+    <End Role="Table_category" Type="Self.Table_category" Multiplicity="0..1" />
+    <End Role="Tables" Type="Self.Tables" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Table_category">
+        <PropertyRef Name="category_id" />
+      </Principal>
+      <Dependent Role="Tables">
+        <PropertyRef Name="category_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="YourPlaceModelStoreContainer">
+    <EntitySet Name="Event" EntityType="Self.Event" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="EventType" EntityType="Self.EventType" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Guest" EntityType="Self.Guest" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Guest_catagory" EntityType="Self.Guest_catagory" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Guest_table" EntityType="Self.Guest_table" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="guest_table_member" EntityType="Self.guest_table_member" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Table_category" EntityType="Self.Table_category" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Tables" EntityType="Self.Tables" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Users" EntityType="Self.Users" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK__Event__event_typ__33D4B598" Association="Self.FK__Event__event_typ__33D4B598">
+      <End Role="EventType" EntitySet="EventType" />
+      <End Role="Event" EntitySet="Event" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Event__user_id__34C8D9D1" Association="Self.FK__Event__user_id__34C8D9D1">
+      <End Role="Users" EntitySet="Users" />
+      <End Role="Event" EntitySet="Event" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Guest__event_id__37A5467C" Association="Self.FK__Guest__event_id__37A5467C">
+      <End Role="Event" EntitySet="Event" />
+      <End Role="Guest" EntitySet="Guest" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Guest__guest_cat__398D8EEE" Association="Self.FK__Guest__guest_cat__398D8EEE">
+      <End Role="Guest_catagory" EntitySet="Guest_catagory" />
+      <End Role="Guest" EntitySet="Guest" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Guest__table_id__38996AB5" Association="Self.FK__Guest__table_id__38996AB5">
+      <End Role="Tables" EntitySet="Tables" />
+      <End Role="Guest" EntitySet="Guest" />
+    </AssociationSet>
+    <AssociationSet Name="FK__guest_tab__frien__3B75D760" Association="Self.FK__guest_tab__frien__3B75D760">
+      <End Role="Guest" EntitySet="Guest" />
+      <End Role="guest_table_member" EntitySet="guest_table_member" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Guest_tab__guest__36B12243" Association="Self.FK__Guest_tab__guest__36B12243">
+      <End Role="Guest" EntitySet="Guest" />
+      <End Role="Guest_table" EntitySet="Guest_table" />
+    </AssociationSet>
+    <AssociationSet Name="FK__guest_tab__guest__3A81B327" Association="Self.FK__guest_tab__guest__3A81B327">
+      <End Role="Guest" EntitySet="Guest" />
+      <End Role="guest_table_member" EntitySet="guest_table_member" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Guest_tab__table__35BCFE0A" Association="Self.FK__Guest_tab__table__35BCFE0A">
+      <End Role="Tables" EntitySet="Tables" />
+      <End Role="Guest_table" EntitySet="Guest_table" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Tables__category__3C69FB99" Association="Self.FK__Tables__category__3C69FB99">
+      <End Role="Table_category" EntitySet="Table_category" />
+      <End Role="Tables" EntitySet="Tables" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

@@ -1,0 +1,56 @@
+D:\שונות\שרהלה\מחשבים\YourPlace\YourPlace\YourPlace\Converters\bin\Debug\Converters.dll
+D:\שונות\שרהלה\מחשבים\YourPlace\YourPlace\YourPlace\Converters\bin\Debug\Converters.pdb
+D:\שונות\שרהלה\מחשבים\YourPlace\YourPlace\YourPlace\Converters\bin\Debug\Common.dll
+D:\שונות\שרהלה\מחשבים\YourPlace\YourPlace\YourPlace\Converters\bin\Debug\DAL.dll
+D:\שונות\שרהלה\מחשבים\YourPlace\YourPlace\YourPlace\Converters\bin\Debug\EntityFramework.dll
+D:\שונות\שרהלה\מחשבים\YourPlace\YourPlace\YourPlace\Converters\bin\Debug\Common.pdb
+D:\שונות\שרהלה\מחשבים\YourPlace\YourPlace\YourPlace\Converters\bin\Debug\DAL.pdb
+D:\שונות\שרהלה\מחשבים\YourPlace\YourPlace\YourPlace\Converters\bin\Debug\DAL.dll.config
+D:\שונות\שרהלה\מחשבים\YourPlace\YourPlace\YourPlace\Converters\bin\Debug\EntityFramework.xml
+D:\שונות\שרהלה\מחשבים\YourPlace\YourPlace\YourPlace\Converters\obj\Debug\Converters.csprojAssemblyReference.cache
+D:\שונות\שרהלה\מחשבים\YourPlace\YourPlace\YourPlace\Converters\obj\Debug\Converters.csproj.CoreCompileInputs.cache
+D:\שונות\שרהלה\מחשבים\YourPlace\YourPlace\YourPlace\Converters\obj\Debug\Converters.csproj.CopyComplete
+D:\שונות\שרהלה\מחשבים\YourPlace\YourPlace\YourPlace\Converters\obj\Debug\Converters.dll
+D:\שונות\שרהלה\מחשבים\YourPlace\YourPlace\YourPlace\Converters\obj\Debug\Converters.pdb
+D:\user\Desktop\YourPlace\Your_Place\Converters\bin\Debug\Converters.dll
+D:\user\Desktop\YourPlace\Your_Place\Converters\bin\Debug\Converters.pdb
+D:\user\Desktop\YourPlace\Your_Place\Converters\bin\Debug\Common.dll
+D:\user\Desktop\YourPlace\Your_Place\Converters\bin\Debug\DAL.dll
+D:\user\Desktop\YourPlace\Your_Place\Converters\bin\Debug\EntityFramework.dll
+D:\user\Desktop\YourPlace\Your_Place\Converters\bin\Debug\Common.pdb
+D:\user\Desktop\YourPlace\Your_Place\Converters\bin\Debug\DAL.pdb
+D:\user\Desktop\YourPlace\Your_Place\Converters\bin\Debug\DAL.dll.config
+D:\user\Desktop\YourPlace\Your_Place\Converters\bin\Debug\EntityFramework.xml
+D:\user\Desktop\YourPlace\Your_Place\Converters\obj\Debug\Converters.csprojAssemblyReference.cache
+D:\user\Desktop\YourPlace\Your_Place\Converters\obj\Debug\Converters.csproj.CoreCompileInputs.cache
+D:\user\Desktop\YourPlace\Your_Place\Converters\obj\Debug\Converters.csproj.CopyComplete
+D:\user\Desktop\YourPlace\Your_Place\Converters\obj\Debug\Converters.dll
+D:\user\Desktop\YourPlace\Your_Place\Converters\obj\Debug\Converters.pdb
+C:\Your Place\Server\Your_Place\Converters\bin\Debug\Converters.dll
+C:\Your Place\Server\Your_Place\Converters\bin\Debug\Converters.pdb
+C:\Your Place\Server\Your_Place\Converters\bin\Debug\Common.dll
+C:\Your Place\Server\Your_Place\Converters\bin\Debug\DAL.dll
+C:\Your Place\Server\Your_Place\Converters\bin\Debug\EntityFramework.dll
+C:\Your Place\Server\Your_Place\Converters\bin\Debug\Common.pdb
+C:\Your Place\Server\Your_Place\Converters\bin\Debug\DAL.pdb
+C:\Your Place\Server\Your_Place\Converters\bin\Debug\DAL.dll.config
+C:\Your Place\Server\Your_Place\Converters\bin\Debug\EntityFramework.xml
+C:\Your Place\Server\Your_Place\Converters\obj\Debug\Converters.csprojAssemblyReference.cache
+C:\Your Place\Server\Your_Place\Converters\obj\Debug\Converters.csproj.CoreCompileInputs.cache
+C:\Your Place\Server\Your_Place\Converters\obj\Debug\Converters.csproj.CopyComplete
+C:\Your Place\Server\Your_Place\Converters\obj\Debug\Converters.dll
+C:\Your Place\Server\Your_Place\Converters\obj\Debug\Converters.pdb
+C:\Users\Angular\Desktop\פרויקט\YourPlace\Converters\bin\Debug\Converters.dll
+C:\Users\Angular\Desktop\פרויקט\YourPlace\Converters\bin\Debug\Converters.pdb
+C:\Users\Angular\Desktop\פרויקט\YourPlace\Converters\bin\Debug\Common.dll
+C:\Users\Angular\Desktop\פרויקט\YourPlace\Converters\bin\Debug\DAL.dll
+C:\Users\Angular\Desktop\פרויקט\YourPlace\Converters\bin\Debug\EntityFramework.dll
+C:\Users\Angular\Desktop\פרויקט\YourPlace\Converters\bin\Debug\Common.pdb
+C:\Users\Angular\Desktop\פרויקט\YourPlace\Converters\bin\Debug\DAL.pdb
+C:\Users\Angular\Desktop\פרויקט\YourPlace\Converters\bin\Debug\DAL.dll.config
+C:\Users\Angular\Desktop\פרויקט\YourPlace\Converters\bin\Debug\EntityFramework.xml
+C:\Users\Angular\Desktop\פרויקט\YourPlace\Converters\obj\Debug\Converters.csprojAssemblyReference.cache
+C:\Users\Angular\Desktop\פרויקט\YourPlace\Converters\obj\Debug\Converters.csproj.CoreCompileInputs.cache
+C:\Users\Angular\Desktop\פרויקט\YourPlace\Converters\obj\Debug\Converters.csproj.CopyComplete
+C:\Users\Angular\Desktop\פרויקט\YourPlace\Converters\obj\Debug\Converters.dll
+C:\Users\Angular\Desktop\פרויקט\YourPlace\Converters\obj\Debug\Converters.pdb

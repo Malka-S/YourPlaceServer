@@ -1,0 +1,52 @@
+C:\Users\Me\Desktop\NEW\YourPlace\DAL\bin\Debug\DAL.dll
+C:\Users\Me\Desktop\NEW\YourPlace\DAL\bin\Debug\DAL.pdb
+C:\Users\Me\Desktop\NEW\YourPlace\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+C:\Users\Me\Desktop\NEW\YourPlace\DAL\obj\Debug\DAL.dll
+C:\Users\Me\Desktop\NEW\YourPlace\DAL\obj\Debug\DAL.pdb
+D:\שונות\שרהלה\מחשבים\YourPlace\YourPlace\YourPlace\DAL\bin\Debug\DAL.dll.config
+D:\שונות\שרהלה\מחשבים\YourPlace\YourPlace\YourPlace\DAL\bin\Debug\DAL.dll
+D:\שונות\שרהלה\מחשבים\YourPlace\YourPlace\YourPlace\DAL\bin\Debug\DAL.pdb
+D:\שונות\שרהלה\מחשבים\YourPlace\YourPlace\YourPlace\DAL\bin\Debug\EntityFramework.dll
+D:\שונות\שרהלה\מחשבים\YourPlace\YourPlace\YourPlace\DAL\bin\Debug\EntityFramework.SqlServer.dll
+D:\שונות\שרהלה\מחשבים\YourPlace\YourPlace\YourPlace\DAL\bin\Debug\EntityFramework.xml
+D:\שונות\שרהלה\מחשבים\YourPlace\YourPlace\YourPlace\DAL\bin\Debug\EntityFramework.SqlServer.xml
+D:\שונות\שרהלה\מחשבים\YourPlace\YourPlace\YourPlace\DAL\obj\Debug\DAL.csprojAssemblyReference.cache
+D:\שונות\שרהלה\מחשבים\YourPlace\YourPlace\YourPlace\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+D:\שונות\שרהלה\מחשבים\YourPlace\YourPlace\YourPlace\DAL\obj\Debug\DAL.csproj.CopyComplete
+D:\שונות\שרהלה\מחשבים\YourPlace\YourPlace\YourPlace\DAL\obj\Debug\DAL.dll
+D:\שונות\שרהלה\מחשבים\YourPlace\YourPlace\YourPlace\DAL\obj\Debug\DAL.pdb
+D:\user\Desktop\YourPlace\Your_Place\DAL\obj\Debug\DAL.csprojAssemblyReference.cache
+D:\user\Desktop\YourPlace\Your_Place\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+D:\user\Desktop\YourPlace\Your_Place\DAL\obj\Debug\DAL.dll
+D:\user\Desktop\YourPlace\Your_Place\DAL\obj\Debug\DAL.pdb
+D:\user\Desktop\YourPlace\Your_Place\DAL\bin\Debug\DAL.dll.config
+D:\user\Desktop\YourPlace\Your_Place\DAL\bin\Debug\DAL.dll
+D:\user\Desktop\YourPlace\Your_Place\DAL\bin\Debug\DAL.pdb
+D:\user\Desktop\YourPlace\Your_Place\DAL\bin\Debug\EntityFramework.dll
+D:\user\Desktop\YourPlace\Your_Place\DAL\bin\Debug\EntityFramework.SqlServer.dll
+D:\user\Desktop\YourPlace\Your_Place\DAL\bin\Debug\EntityFramework.xml
+D:\user\Desktop\YourPlace\Your_Place\DAL\bin\Debug\EntityFramework.SqlServer.xml
+D:\user\Desktop\YourPlace\Your_Place\DAL\obj\Debug\DAL.csproj.CopyComplete
+C:\Your Place\Server\Your_Place\DAL\bin\Debug\DAL.dll.config
+C:\Your Place\Server\Your_Place\DAL\bin\Debug\DAL.dll
+C:\Your Place\Server\Your_Place\DAL\bin\Debug\DAL.pdb
+C:\Your Place\Server\Your_Place\DAL\bin\Debug\EntityFramework.dll
+C:\Your Place\Server\Your_Place\DAL\bin\Debug\EntityFramework.SqlServer.dll
+C:\Your Place\Server\Your_Place\DAL\bin\Debug\EntityFramework.xml
+C:\Your Place\Server\Your_Place\DAL\bin\Debug\EntityFramework.SqlServer.xml
+C:\Your Place\Server\Your_Place\DAL\obj\Debug\DAL.csprojAssemblyReference.cache
+C:\Your Place\Server\Your_Place\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+C:\Your Place\Server\Your_Place\DAL\obj\Debug\DAL.csproj.CopyComplete
+C:\Your Place\Server\Your_Place\DAL\obj\Debug\DAL.dll
+C:\Your Place\Server\Your_Place\DAL\obj\Debug\DAL.pdb
+C:\Users\Angular\Desktop\פרויקט\YourPlace\DAL\bin\Debug\DAL.dll.config
+C:\Users\Angular\Desktop\פרויקט\YourPlace\DAL\bin\Debug\DAL.dll
+C:\Users\Angular\Desktop\פרויקט\YourPlace\DAL\bin\Debug\DAL.pdb
+C:\Users\Angular\Desktop\פרויקט\YourPlace\DAL\bin\Debug\EntityFramework.dll
+C:\Users\Angular\Desktop\פרויקט\YourPlace\DAL\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Angular\Desktop\פרויקט\YourPlace\DAL\bin\Debug\EntityFramework.xml
+C:\Users\Angular\Desktop\פרויקט\YourPlace\DAL\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Angular\Desktop\פרויקט\YourPlace\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+C:\Users\Angular\Desktop\פרויקט\YourPlace\DAL\obj\Debug\DAL.csproj.CopyComplete
+C:\Users\Angular\Desktop\פרויקט\YourPlace\DAL\obj\Debug\DAL.dll
+C:\Users\Angular\Desktop\פרויקט\YourPlace\DAL\obj\Debug\DAL.pdb

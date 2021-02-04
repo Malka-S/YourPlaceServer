@@ -1,0 +1,75 @@
+C:\Users\Me\Desktop\NEW\YourPlace\BLL\bin\Debug\BLL.dll
+C:\Users\Me\Desktop\NEW\YourPlace\BLL\bin\Debug\BLL.pdb
+C:\Users\Me\Desktop\NEW\YourPlace\BLL\bin\Debug\Common.dll
+C:\Users\Me\Desktop\NEW\YourPlace\BLL\bin\Debug\DAL.dll
+C:\Users\Me\Desktop\NEW\YourPlace\BLL\bin\Debug\Common.pdb
+C:\Users\Me\Desktop\NEW\YourPlace\BLL\bin\Debug\DAL.pdb
+C:\Users\Me\Desktop\NEW\YourPlace\BLL\obj\Debug\BLL.csprojAssemblyReference.cache
+C:\Users\Me\Desktop\NEW\YourPlace\BLL\obj\Debug\BLL.csproj.CoreCompileInputs.cache
+C:\Users\Me\Desktop\NEW\YourPlace\BLL\obj\Debug\BLL.csproj.CopyComplete
+C:\Users\Me\Desktop\NEW\YourPlace\BLL\obj\Debug\BLL.dll
+C:\Users\Me\Desktop\NEW\YourPlace\BLL\obj\Debug\BLL.pdb
+D:\שונות\שרהלה\מחשבים\YourPlace\YourPlace\YourPlace\BLL\bin\Debug\BLL.dll
+D:\שונות\שרהלה\מחשבים\YourPlace\YourPlace\YourPlace\BLL\bin\Debug\BLL.pdb
+D:\שונות\שרהלה\מחשבים\YourPlace\YourPlace\YourPlace\BLL\bin\Debug\Common.dll
+D:\שונות\שרהלה\מחשבים\YourPlace\YourPlace\YourPlace\BLL\bin\Debug\Converters.dll
+D:\שונות\שרהלה\מחשבים\YourPlace\YourPlace\YourPlace\BLL\bin\Debug\DAL.dll
+D:\שונות\שרהלה\מחשבים\YourPlace\YourPlace\YourPlace\BLL\bin\Debug\EntityFramework.dll
+D:\שונות\שרהלה\מחשבים\YourPlace\YourPlace\YourPlace\BLL\bin\Debug\Common.pdb
+D:\שונות\שרהלה\מחשבים\YourPlace\YourPlace\YourPlace\BLL\bin\Debug\Converters.pdb
+D:\שונות\שרהלה\מחשבים\YourPlace\YourPlace\YourPlace\BLL\bin\Debug\DAL.pdb
+D:\שונות\שרהלה\מחשבים\YourPlace\YourPlace\YourPlace\BLL\bin\Debug\DAL.dll.config
+D:\שונות\שרהלה\מחשבים\YourPlace\YourPlace\YourPlace\BLL\bin\Debug\EntityFramework.xml
+D:\שונות\שרהלה\מחשבים\YourPlace\YourPlace\YourPlace\BLL\obj\Debug\BLL.csprojAssemblyReference.cache
+D:\שונות\שרהלה\מחשבים\YourPlace\YourPlace\YourPlace\BLL\obj\Debug\BLL.csproj.CoreCompileInputs.cache
+D:\שונות\שרהלה\מחשבים\YourPlace\YourPlace\YourPlace\BLL\obj\Debug\BLL.csproj.CopyComplete
+D:\שונות\שרהלה\מחשבים\YourPlace\YourPlace\YourPlace\BLL\obj\Debug\BLL.dll
+D:\שונות\שרהלה\מחשבים\YourPlace\YourPlace\YourPlace\BLL\obj\Debug\BLL.pdb
+D:\user\Desktop\YourPlace\Your_Place\BLL\bin\Debug\BLL.dll
+D:\user\Desktop\YourPlace\Your_Place\BLL\bin\Debug\BLL.pdb
+D:\user\Desktop\YourPlace\Your_Place\BLL\bin\Debug\Common.dll
+D:\user\Desktop\YourPlace\Your_Place\BLL\bin\Debug\Converters.dll
+D:\user\Desktop\YourPlace\Your_Place\BLL\bin\Debug\DAL.dll
+D:\user\Desktop\YourPlace\Your_Place\BLL\bin\Debug\EntityFramework.dll
+D:\user\Desktop\YourPlace\Your_Place\BLL\bin\Debug\Common.pdb
+D:\user\Desktop\YourPlace\Your_Place\BLL\bin\Debug\Converters.pdb
+D:\user\Desktop\YourPlace\Your_Place\BLL\bin\Debug\DAL.pdb
+D:\user\Desktop\YourPlace\Your_Place\BLL\bin\Debug\DAL.dll.config
+D:\user\Desktop\YourPlace\Your_Place\BLL\bin\Debug\EntityFramework.xml
+D:\user\Desktop\YourPlace\Your_Place\BLL\obj\Debug\BLL.csprojAssemblyReference.cache
+D:\user\Desktop\YourPlace\Your_Place\BLL\obj\Debug\BLL.csproj.CoreCompileInputs.cache
+D:\user\Desktop\YourPlace\Your_Place\BLL\obj\Debug\BLL.csproj.CopyComplete
+D:\user\Desktop\YourPlace\Your_Place\BLL\obj\Debug\BLL.dll
+D:\user\Desktop\YourPlace\Your_Place\BLL\obj\Debug\BLL.pdb
+C:\Your Place\Server\Your_Place\BLL\bin\Debug\BLL.dll
+C:\Your Place\Server\Your_Place\BLL\bin\Debug\BLL.pdb
+C:\Your Place\Server\Your_Place\BLL\bin\Debug\Common.dll
+C:\Your Place\Server\Your_Place\BLL\bin\Debug\Converters.dll
+C:\Your Place\Server\Your_Place\BLL\bin\Debug\DAL.dll
+C:\Your Place\Server\Your_Place\BLL\bin\Debug\EntityFramework.dll
+C:\Your Place\Server\Your_Place\BLL\bin\Debug\Common.pdb
+C:\Your Place\Server\Your_Place\BLL\bin\Debug\Converters.pdb
+C:\Your Place\Server\Your_Place\BLL\bin\Debug\DAL.pdb
+C:\Your Place\Server\Your_Place\BLL\bin\Debug\DAL.dll.config
+C:\Your Place\Server\Your_Place\BLL\bin\Debug\EntityFramework.xml
+C:\Your Place\Server\Your_Place\BLL\obj\Debug\BLL.csprojAssemblyReference.cache
+C:\Your Place\Server\Your_Place\BLL\obj\Debug\BLL.csproj.CoreCompileInputs.cache
+C:\Your Place\Server\Your_Place\BLL\obj\Debug\BLL.csproj.CopyComplete
+C:\Your Place\Server\Your_Place\BLL\obj\Debug\BLL.dll
+C:\Your Place\Server\Your_Place\BLL\obj\Debug\BLL.pdb
+C:\Users\Angular\Desktop\פרויקט\YourPlace\BLL\bin\Debug\BLL.dll
+C:\Users\Angular\Desktop\פרויקט\YourPlace\BLL\bin\Debug\BLL.pdb
+C:\Users\Angular\Desktop\פרויקט\YourPlace\BLL\bin\Debug\Common.dll
+C:\Users\Angular\Desktop\פרויקט\YourPlace\BLL\bin\Debug\Converters.dll
+C:\Users\Angular\Desktop\פרויקט\YourPlace\BLL\bin\Debug\DAL.dll
+C:\Users\Angular\Desktop\פרויקט\YourPlace\BLL\bin\Debug\EntityFramework.dll
+C:\Users\Angular\Desktop\פרויקט\YourPlace\BLL\bin\Debug\Common.pdb
+C:\Users\Angular\Desktop\פרויקט\YourPlace\BLL\bin\Debug\Converters.pdb
+C:\Users\Angular\Desktop\פרויקט\YourPlace\BLL\bin\Debug\DAL.pdb
+C:\Users\Angular\Desktop\פרויקט\YourPlace\BLL\bin\Debug\DAL.dll.config
+C:\Users\Angular\Desktop\פרויקט\YourPlace\BLL\bin\Debug\EntityFramework.xml
+C:\Users\Angular\Desktop\פרויקט\YourPlace\BLL\obj\Debug\BLL.csprojAssemblyReference.cache
+C:\Users\Angular\Desktop\פרויקט\YourPlace\BLL\obj\Debug\BLL.csproj.CoreCompileInputs.cache
+C:\Users\Angular\Desktop\פרויקט\YourPlace\BLL\obj\Debug\BLL.csproj.CopyComplete
+C:\Users\Angular\Desktop\פרויקט\YourPlace\BLL\obj\Debug\BLL.dll
+C:\Users\Angular\Desktop\פרויקט\YourPlace\BLL\obj\Debug\BLL.pdb

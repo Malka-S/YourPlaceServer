@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="4bdd51bc29ed45528c5ab2ba5b403bfe" Name="Diagram1" ZoomLevel="82">
+        <EntityTypeShape EntityType="YourPlaceModel.Event" Width="1.5" PointX="3" PointY="3.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="YourPlaceModel.EventType" Width="1.5" PointX="0.75" PointY="4.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="YourPlaceModel.Guest" Width="1.5" PointX="5.25" PointY="2.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="YourPlaceModel.Guest_catagory" Width="1.5" PointX="3" PointY="7.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="YourPlaceModel.Guest_table" Width="1.5" PointX="7.5" PointY="3" IsExpanded="true" />
+        <EntityTypeShape EntityType="YourPlaceModel.guest_table_member" Width="1.5" PointX="7.5" PointY="6.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="YourPlaceModel.sysdiagrams" Width="1.5" PointX="5.75" PointY="10.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="YourPlaceModel.Table_category" Width="1.5" PointX="0.75" PointY="11.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="YourPlaceModel.Tables" Width="1.5" PointX="3" PointY="10.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="YourPlaceModel.Users" Width="1.5" PointX="0.75" PointY="1.5" IsExpanded="true" />
+        <AssociationConnector Association="YourPlaceModel.FK__Event__event_typ__32E0915F" ManuallyRouted="false" />
+        <AssociationConnector Association="YourPlaceModel.FK__Event__user_id__33D4B598" ManuallyRouted="false" />
+        <AssociationConnector Association="YourPlaceModel.FK__Guest__event_id__36B12243" ManuallyRouted="false" />
+        <AssociationConnector Association="YourPlaceModel.FK__Guest__guest_cat__38996AB5" ManuallyRouted="false" />
+        <AssociationConnector Association="YourPlaceModel.FK__Guest__table_id__37A5467C" ManuallyRouted="false" />
+        <AssociationConnector Association="YourPlaceModel.FK__guest_tab__frien__3A81B327" ManuallyRouted="false" />
+        <AssociationConnector Association="YourPlaceModel.FK__Guest_tab__guest__35BCFE0A" ManuallyRouted="false" />
+        <AssociationConnector Association="YourPlaceModel.FK__guest_tab__guest__398D8EEE" ManuallyRouted="false" />
+        <AssociationConnector Association="YourPlaceModel.FK__Guest_tab__table__34C8D9D1" ManuallyRouted="false" />
+        <AssociationConnector Association="YourPlaceModel.FK__Tables__category__3B75D760" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

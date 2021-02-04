@@ -1,0 +1,28 @@
+C:\Users\Me\Desktop\NEW\YourPlace\Common\bin\Debug\Common.dll
+C:\Users\Me\Desktop\NEW\YourPlace\Common\bin\Debug\Common.pdb
+C:\Users\Me\Desktop\NEW\YourPlace\Common\obj\Debug\Common.csprojAssemblyReference.cache
+C:\Users\Me\Desktop\NEW\YourPlace\Common\obj\Debug\Common.csproj.CoreCompileInputs.cache
+C:\Users\Me\Desktop\NEW\YourPlace\Common\obj\Debug\Common.dll
+C:\Users\Me\Desktop\NEW\YourPlace\Common\obj\Debug\Common.pdb
+D:\שונות\שרהלה\מחשבים\YourPlace\YourPlace\YourPlace\Common\bin\Debug\Common.dll
+D:\שונות\שרהלה\מחשבים\YourPlace\YourPlace\YourPlace\Common\bin\Debug\Common.pdb
+D:\שונות\שרהלה\מחשבים\YourPlace\YourPlace\YourPlace\Common\obj\Debug\Common.csproj.CoreCompileInputs.cache
+D:\שונות\שרהלה\מחשבים\YourPlace\YourPlace\YourPlace\Common\obj\Debug\Common.dll
+D:\שונות\שרהלה\מחשבים\YourPlace\YourPlace\YourPlace\Common\obj\Debug\Common.pdb
+D:\user\Desktop\YourPlace\Your_Place\Common\bin\Debug\Common.dll
+D:\user\Desktop\YourPlace\Your_Place\Common\bin\Debug\Common.pdb
+D:\user\Desktop\YourPlace\Your_Place\Common\obj\Debug\Common.csprojAssemblyReference.cache
+D:\user\Desktop\YourPlace\Your_Place\Common\obj\Debug\Common.csproj.CoreCompileInputs.cache
+D:\user\Desktop\YourPlace\Your_Place\Common\obj\Debug\Common.dll
+D:\user\Desktop\YourPlace\Your_Place\Common\obj\Debug\Common.pdb
+C:\Your Place\Server\Your_Place\Common\bin\Debug\Common.dll
+C:\Your Place\Server\Your_Place\Common\bin\Debug\Common.pdb
+C:\Your Place\Server\Your_Place\Common\obj\Debug\Common.csprojAssemblyReference.cache
+C:\Your Place\Server\Your_Place\Common\obj\Debug\Common.csproj.CoreCompileInputs.cache
+C:\Your Place\Server\Your_Place\Common\obj\Debug\Common.dll
+C:\Your Place\Server\Your_Place\Common\obj\Debug\Common.pdb
+C:\Users\Angular\Desktop\פרויקט\YourPlace\Common\bin\Debug\Common.dll
+C:\Users\Angular\Desktop\פרויקט\YourPlace\Common\bin\Debug\Common.pdb
+C:\Users\Angular\Desktop\פרויקט\YourPlace\Common\obj\Debug\Common.csproj.CoreCompileInputs.cache
+C:\Users\Angular\Desktop\פרויקט\YourPlace\Common\obj\Debug\Common.dll
+C:\Users\Angular\Desktop\פרויקט\YourPlace\Common\obj\Debug\Common.pdb

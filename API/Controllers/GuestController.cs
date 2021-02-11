@@ -12,9 +12,8 @@ namespace API.Controllers
 
   public class GuestController : ApiController
   {
-    [RequireHttps]
     [System.Web.Http.HttpGet]
-    [System.Web.Http.Route("GetCatagoryList")]
+
     public IHttpActionResult GetCatagoryList()
     {
       try
@@ -29,6 +28,9 @@ namespace API.Controllers
         return BadRequest(e.Message);
       }
     }
+    [System.Web.Http.HttpGet]
+    [System.Web.Http.Route("GetGuestList")]
+
 
     public IHttpActionResult GetGuestList()
     {
@@ -44,6 +46,30 @@ namespace API.Controllers
         return BadRequest(e.Message);
       }
     }
+    [System.Web.Http.HttpDelete]
+    [System.Web.Http.Route("deleteGuestById")]
+
+    public IHttpActionResult deleteGuestById(int id)
+    {
+      try
+      {
+        int x = BLL.GuestService.DeleteGuest(id);
+
+        if (x == 0)
+          return NotFound();
+        else
+          return Ok(x);
+      }
+      catch (Exception e)
+      {
+        //שקרא לה תפס אותה וגם הוא זרק אותהbll היא נזרקה ואז הdal במקרה שגיאה ב
+        //תפס את השגיאה והוא מעביר את טקסט השגיאה ללקוחbll שהפעיל את הwebapi ה
+        //האנגולר יוכל לראות שחזר שגיאה ומה הייתה השגיאה 
+        return BadRequest(e.Message);
+      }
+    }
+    [System.Web.Http.Route("GetGuestsByCategory")]
+
     public IHttpActionResult GetGuestsByCategory(string category)
     {
       try
@@ -58,7 +84,25 @@ namespace API.Controllers
         return BadRequest(e.Message);
       }
     }
+    [System.Web.Http.Route("GetGuestsById")]
+
+    public IHttpActionResult GetGuestsById(int id)
+    {
+      try
+      {
+        var q = BLL.GuestService.GetGuestById(id);
+        if (q != null)
+          return Ok(q);
+        return NotFound();
+      }
+      catch (Exception e)
+      {
+        return BadRequest(e.Message);
+      }
+    }
     //add
+    [System.Web.Http.HttpPut]
+
     public IHttpActionResult PutGuest(Common.DTO.GuestDto guest)
     {
       try
@@ -74,6 +118,8 @@ namespace API.Controllers
       }
     }
     //update
+    [System.Web.Http.HttpPost]
+
     public IHttpActionResult PostGuest(Common.DTO.GuestDto guest)
     {
       try

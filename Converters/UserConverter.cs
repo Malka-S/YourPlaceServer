@@ -11,8 +11,14 @@ namespace Converters
     public static DAL.Users ToDalUser(Common.DTO.UserDto e)
     {
       DAL.Users ev = new DAL.Users();
+      Random rand = new Random();
+      //עשיתי מספרים גבוהים כי ךא עובד הבדיקה
+      ev.user_id = rand.Next(100, 10000);
       ev.user_email = e.user_email;
       ev.user_password = e.user_password;
+      ev.user_first_name = e.user_first_name;
+      ev.user_last_name = e.user_last_name;
+      ev.user_phone_number = e.user_phone_number;
       return ev;
     }
     public static Common.DTO.UserDto ToDtoUser(DAL.Users e)
@@ -20,6 +26,9 @@ namespace Converters
       Common.DTO.UserDto ev = new Common.DTO.UserDto();
       ev.user_email = e.user_email;
       ev.user_password = e.user_password;
+      ev.user_first_name = e.user_first_name;
+      ev.user_last_name = e.user_last_name;
+      ev.user_phone_number = e.user_phone_number;
       return ev;
     }
     public static List<DAL.Users> ToDalUserList(List<Common.DTO.UserDto> l)

@@ -12,13 +12,15 @@ namespace API.Controllers
 
   public class UserLoginController : ApiController
   {
-    [HttpPost]
+    [HttpGet]
+    [System.Web.Http.Route("Login")]
+
     public IHttpActionResult Login(string userEmail, string password)
     {
       try
       {
-        var q = BLL.UserService.GetUserByEmail(userEmail);
-        if (q != null)
+        var q = BLL.UserService.GetUserByEmail(userEmail,password);
+        if (q == true)
           return Ok(q);
         return NotFound();
       }
@@ -44,6 +46,8 @@ namespace API.Controllers
         return BadRequest(e.Message);
       }
     }
+    [HttpPut]
+
     public IHttpActionResult PutUser(Common.DTO.UserDto user)
     {
       try

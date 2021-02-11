@@ -12,9 +12,12 @@ namespace Common.DTO
     public string guest_first_name { get; set; }
     public string guest_last_name { get; set; }
     public int guest_tz { get; set; }
+    public string gender { get; set; }
+
     public string guest_email { get; set; }
     public int guest_category_id{ get; set; }
-
+    public string guest_message_befor { get; set; }
+    public string guest_message_after { get; set; }
     //יש עוד שלא שמתי- אני שמתי ידנית הכל 
   }
 

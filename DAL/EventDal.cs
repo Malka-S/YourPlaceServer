@@ -29,6 +29,14 @@ namespace DAL
         using (YourPlaceEntities db = new YourPlaceEntities())
         {
           var q1 = db.Event.FirstOrDefault(e => e.event_id == event1.event_id);
+          q1.event_date = event1.event_date;
+          q1.due_date = event1.due_date;
+          q1.event_id = event1.event_id;
+          q1.event_type_id = event1.event_type_id;
+          q1.invitation_file = event1.invitation_file;
+          q1.num_places_around_a_table = event1.num_places_around_a_table;
+          q1.num_tables = event1.num_tables;
+          q1.user_id = event1.user_id;
           db.SaveChanges();
           return 1;
         }

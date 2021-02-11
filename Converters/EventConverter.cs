@@ -14,7 +14,10 @@ namespace Converters
     public static Event ToDalEvent(EventDto e)
     {
       Event ev = new Event();
-      ev.event_id = e.event_id;
+      Random rand = new Random();
+      //עשיתי מספרים גבוהים כי ךא עובד הבדיקה
+      //לעשות פונקצית בדיקב BLL
+      ev.event_id = rand.Next(100, 10000);
       ev.invitation_file = e.invitation_file;
       ev.event_type_id = e.event_type_id;
       ev.event_date = e.event_date;

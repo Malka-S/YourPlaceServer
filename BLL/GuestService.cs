@@ -10,16 +10,47 @@ namespace BLL
   {
     public static List<Common.DTO.GuestDto> GetAllGuests()
     {
-      return Converters.GuestConverter.ToDtoGuestList(DAL.GuestDal.SelectGuests());
+      try
+      {
+        return Converters.GuestConverter.ToDtoGuestList(DAL.GuestDal.SelectGuests());
+      }
+      catch (Exception e)
+      {
+        throw e;
+      }
     }
     public static List<Common.DTO.GuestDto> GetGuestListByCategory(string category)
     {
-      return Converters.GuestConverter.ToDtoGuestList(DAL.GuestDal.SelectGuestsByCatagory(category));
+      try
+      {
+        return Converters.GuestConverter.ToDtoGuestList(DAL.GuestDal.SelectGuestsByCatagory(category));
+      }
+      catch (Exception e)
+      {
+        throw e;
+      }
     }
-
+    public static List<Common.DTO.GuestDto> GetGuestById(int id)
+    {
+      try
+      {
+        return Converters.GuestConverter.ToDtoGuestList(DAL.GuestDal.SelectGuestsById(id));
+      }
+      catch (Exception e)
+      {
+        throw e;
+      }
+    }
     public static List<Common.DTO.BaseCodeDto> GetCatagoryList()
     {
-      return Converters.GuestConverter.ToDtoCatagoryList(DAL.GuestDal.SelectCatagoryList());
+      try
+      {
+        return Converters.GuestConverter.ToDtoCatagoryList(DAL.GuestDal.SelectCatagoryList());
+      }
+      catch (Exception e)
+      {
+        throw e;
+      }
     }
     public static int AddGuest(Common.DTO.GuestDto guest)
     {
@@ -45,11 +76,11 @@ namespace BLL
         throw e;
       }
     }
-    public static int DeleteGuest(Common.DTO.GuestDto guest)
+    public static int DeleteGuest(int id)
     {
       try
       {
-        return DAL.GuestDal.DeleteGuest(Converters.GuestConverter.ToDalGuest(guest));
+        return DAL.GuestDal.DeleteGuest(id);
       }
       catch (Exception e)
       {

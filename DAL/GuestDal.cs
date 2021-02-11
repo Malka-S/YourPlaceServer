@@ -14,15 +14,20 @@ namespace DAL
       {
         using (YourPlaceEntities db = new YourPlaceEntities())
         {
-          var q1 = db.Guest.Add(guest);
+          //אם ישנו כבר אורח עם כזה ID
+//משום מה הפונקציה לא עובדת לא בטוחה מה הסוג של q1
+  while(db.Guest.FirstOrDefault(g => g.guest_id == guest.guest_id) == guest)
+            //תוסיף 1 לID
+            guest.guest_id += guest.guest_id + 1;
+            Guest q1 = db.Guest.Add(guest);
           //שמור שינוי
           db.SaveChanges();
           return 1;//יתכן שנשקול להוסיף את המספור האוטמטי החדש 
         }
       }
-      catch
+      catch (Exception e)
       {
-        throw;
+        throw e;
       }
     }
     public static int UpdateGuest(Guest guest)
@@ -34,13 +39,19 @@ namespace DAL
         {
           var q1 = db.Guest.FirstOrDefault(g=>g.guest_id==guest.guest_id);
           //שמור שינוי
+          q1.guest_first_name = guest.guest_first_name;
+          q1.guest_last_name = guest.guest_last_name;
+          q1.guest_email = guest.guest_email;
+          q1.guest_message_befor = guest.guest_message_befor;
+          q1.guest_message_after = guest.guest_message_after;
+         // q1.guest_category_id = guest.guest_category_id;
           db.SaveChanges();
           return 1;//יתכן שנשקול להוסיף את המספור האוטמטי החדש 
         }
       }
-      catch
+      catch (Exception e)
       {
-        throw;
+        throw e;
       }
     }
     public static List<Guest> SelectGuestsByCatagory(string category)
@@ -48,14 +59,16 @@ namespace DAL
 
       using (YourPlaceEntities db = new YourPlaceEntities())
       {
-      //  var selectByCatagory=
-      //    from Guest join Guest_catagory
-      //    where Guest.guest_catagory_id equals Guest_catagory.guest_catagory_id
-      //    on Guest_catagory.guest_catagory_description equals catagory;
-        //מקבלים סוג קטגוריה ואילו בדאטה בייס זה בתור קוד
-        // return db.Guest.FirstOrDefault(e => e.guest_catagory_id == category);
 
         return db.Guest.Where(e => e.Guest_catagory.guest_catagory_des == category).ToList();
+      }
+    }
+    public static List<Guest> SelectGuestsById(int id)
+    {
+
+      using (YourPlaceEntities db = new YourPlaceEntities())
+      {
+        return db.Guest.Where(e => e.guest_id == id).ToList();
       }
     }
     public static List<Guest> SelectGuests()
@@ -79,14 +92,14 @@ namespace DAL
         return f;
       }
     }
-    public static int DeleteGuest(Guest guest)
+    public static int DeleteGuest(int id)
     {
       try
       {
         using (YourPlaceEntities db = new YourPlaceEntities())
         {
           //אמור למחוק את האורח שקיבל 
-          var q1 = db.Guest.FirstOrDefault();
+          var q1 = db.Guest.FirstOrDefault(e=>e.guest_id==id);
           if (q1 == null)
             return 0;
           else
@@ -100,9 +113,9 @@ namespace DAL
           }
         }
       }
-      catch
+      catch (Exception e)
       {
-        throw;
+        throw e;
       }
 
     }

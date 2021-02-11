@@ -31,19 +31,20 @@ namespace DAL
           return 1;//יתכן שנשקול להוסיף את המספור האוטמטי החדש 
         }
       }
-      catch
+      catch (Exception e)
       {
-        throw;
+        throw e;
       }
     }
-    public static string SalectUser(string mail)
+    public static bool SalectUser(string mail, string password)
     {
 
       using (YourPlaceEntities db = new YourPlaceEntities())
       {
-        //לא מכיר את USERS
-        // return db.Users.FirstOrDefault(u => u.user_email == mail);
-        return "567";
+        Users q1 = db.Users.FirstOrDefault(u => u.user_email == mail & u.user_password == password);
+        if (q1 != null)
+          return true;
+        return false;
       }
     }
     public static int AddUser(Users user)
@@ -59,9 +60,9 @@ namespace DAL
 
         }
       }
-      catch
+      catch (Exception e)
       {
-        throw;
+        throw e;
       }
     }
   }

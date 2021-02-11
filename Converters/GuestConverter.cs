@@ -10,32 +10,37 @@ namespace Converters
 {
   public class GuestConverter
   {
-    public static DAL.Guest ToDalGuest(Common.DTO.GuestDto g)
+    public static Guest ToDalGuest(GuestDto g)
     {
-      DAL.Guest gu = new DAL.Guest();
-      gu.guest_id = g.guest_id;
+       Guest gu = new  Guest();
+      Random rand = new Random();
+      //עשיתי מספרים גבוהים כי ךא עובד הבדיקה
+      gu.guest_id = rand.Next(100,10000);
       gu.guest_first_name = g.guest_first_name;
       gu.guest_last_name = g.guest_last_name;
       gu.guest_email = g.guest_email;
+      gu.gender = g.gender;
       //gu.guest_tz = g.guest_tz;
-      ///....
+      gu.guest_message_befor = g.guest_message_befor;
+      gu.guest_message_after = g.guest_message_after;
       return gu;
     }
-    public static Common.DTO.GuestDto ToDtoGuest(DAL.Guest g)
+    public static Common.DTO.GuestDto ToDtoGuest( Guest g)
     {
       Common.DTO.GuestDto gu = new Common.DTO.GuestDto();
       gu.guest_id = g.guest_id;
       gu.guest_first_name = g.guest_first_name;
       gu.guest_last_name = g.guest_last_name;
       gu.guest_email = g.guest_email;
-     // gu.guest_tz = g.guest_tz;
-      ///....
+      //gu.guest_tz = g.guest_tz;
+      gu.guest_message_befor = g.guest_message_befor;
+      gu.guest_message_after = g.guest_message_after;
       return gu;
 
     }
-    public static List<DAL.Guest> ToDalGuestList(List<Common.DTO.GuestDto> l)
+    public static List< Guest> ToDalGuestList(List<Common.DTO.GuestDto> l)
     {
-      List<DAL.Guest> le = new List<DAL.Guest>();
+      List< Guest> le = new List< Guest>();
       foreach (var item in l)
       {
         le.Add(ToDalGuest(item));
@@ -43,7 +48,7 @@ namespace Converters
       return le;
     }
 
-    public static List<Common.DTO.GuestDto> ToDtoGuestList(List<DAL.Guest> l)
+    public static List<Common.DTO.GuestDto> ToDtoGuestList(List< Guest> l)
     {
       List<Common.DTO.GuestDto> le = new List<Common.DTO.GuestDto>();
       foreach (var item in l)

@@ -8,25 +8,48 @@ using Common.DTO;
 
 namespace BLL
 {
-    public class EventService
+  public class EventService
+  {
+    public static List<Common.DTO.EventDto> GetAllEvents()
     {
-       public static List<Common.DTO.EventDto> GetAllEvents()
-        {
-            return Converters.EventConverter.ToDtoEventList(DAL.EventDal.SelectEvents());
-            
-        }
+      try
+      {
+        return Converters.EventConverter.ToDtoEventList(DAL.EventDal.SelectEvents());
+      }
+      catch (Exception e)
+      {
+        throw e;
+      }
+    }
+
     public static List<Common.DTO.BaseCodeDto> GetEventType()
     {
-      return Converters.EventConverter.ToDtoEventTypeList(DAL.EventDal.SelectEventType());
+      try
+      {
+        return Converters.EventConverter.ToDtoEventTypeList(DAL.EventDal.SelectEventType());
+      }
+      catch (Exception e)
+      {
+        throw e;
+      }
     }
+
     //public static List<Common.DTO.BaseCodeDto> GetEventType()
     //{
     //  return Converters.EventConverter.ToDtoEventTypeList();
     //}
     public static Common.DTO.EventDto SelectEvents(int code)
     {
-      return Converters.EventConverter.ToDtoEvent(DAL.EventDal.SalectEvent(code));
+      try
+      {
+        return Converters.EventConverter.ToDtoEvent(DAL.EventDal.SalectEvent(code));
+      }
+      catch (Exception e)
+      {
+        throw e;
+      }
     }
+
 
     public static int DeleteEventByCode(int code)
     {
@@ -90,5 +113,5 @@ namespace BLL
     //    }
     //}
   }
-
 }
+

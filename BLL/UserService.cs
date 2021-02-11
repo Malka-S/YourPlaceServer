@@ -14,11 +14,11 @@ namespace BLL
       return Converters.UserConverter.ToDtoUserList(DAL.UserDal.SelectUsers());
     }
 
-    public static string GetUserByEmail(string mail)
+    public static bool GetUserByEmail(string mail,string password)
     {
       try
       {
-        return DAL.UserDal.SalectUser(mail);
+          return DAL.UserDal.SalectUser(mail,password);
 
       }
       catch (Exception e)
@@ -26,6 +26,8 @@ namespace BLL
         throw e;
       }
     }
+
+
     public static int AddUser(Common.DTO.UserDto user)
     {
       try

@@ -7,7 +7,7 @@ using System.Web.Http;
 
 namespace API.Controllers
 {
-  [System.Web.Http.RoutePrefix("api/Email")]
+  [RoutePrefix("api/Email")]
 
   public class EmailSendigParameters
   {
@@ -18,13 +18,29 @@ namespace API.Controllers
   public class EmailController : ApiController
   {
 
-    [System.Web.Http.HttpGet]
-    [System.Web.Http.Route("SendEmail")]
+    [HttpGet]
+    [Route("SendEmail")]
     public IHttpActionResult SendEmail(string to, string body)
     {
       try
       {
         BLL.EmailService.mail(to, body);
+
+        return Ok();
+      }
+      catch (Exception e)
+      {
+        return BadRequest(e.Message);
+      }
+    }
+
+    [HttpGet]
+    [Route("SendEmail")]
+    public IHttpActionResult SendEmail(int eventId)
+    {
+      try
+      {
+        BLL.EmailService.mailwithpic(eventId);
 
         return Ok();
       }

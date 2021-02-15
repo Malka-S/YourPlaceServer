@@ -7,31 +7,24 @@ using System.Web.Http;
 
 namespace API.Controllers
 {
+  [System.Web.Http.RoutePrefix("api/Email")]
 
   public class EmailSendigParameters
   {
     public List<string> ListToSend { get; set; }
     public string body { get; set; }
-    public string guest_id { get; set; }
   }
-  public class SingleEmailSendigParameters
-  {
-    public string ToSend { get; set; }
-    public string body { get; set; }
-    public string guest_id { get; set; }
-  }
-  [System.Web.Http.RoutePrefix("api/Email")]
 
   public class EmailController : ApiController
   {
 
     [System.Web.Http.HttpGet]
     [System.Web.Http.Route("SendEmail")]
-    public IHttpActionResult SendEmail(string to,string body,string guest_id)
+    public IHttpActionResult SendEmail(string to, string body)
     {
       try
       {
-        BLL.EmailService.mail(to, body,guest_id);
+        BLL.EmailService.mail(to, body);
 
         return Ok();
       }
@@ -54,7 +47,7 @@ namespace API.Controllers
         foreach (string to in emailSendigParameters.ListToSend)
         {
 
-          BLL.EmailService.mail(to, emailSendigParameters.body,emailSendigParameters.guest_id);
+          BLL.EmailService.mail(to, emailSendigParameters.body);
 
         }
         return Ok();

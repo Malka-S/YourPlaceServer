@@ -33,6 +33,7 @@ namespace DAL
     }
     public static int UpdateGuest(Guest guest)
     {
+      //אמור להיות update
       try
       {
         using (YourPlaceEntities db = new YourPlaceEntities())

@@ -12,6 +12,7 @@ namespace DAL
 {
   public class EventDal
   {
+
     public static List<Event> SelectEvents()
     {
       using (YourPlaceEntities db = new YourPlaceEntities())
@@ -86,7 +87,15 @@ namespace DAL
         return f;
       }
     }
-   
+    public static int GetNumOfSetaAroundTable()
+    {
+      using (YourPlaceEntities db = new YourPlaceEntities())
+      {
+        
+         var o = db.Event.FirstOrDefault();
+        return o.num_places_around_a_table;
+      }
+    }
 
     //public static int UpdateEvent(Event event)
     //{
@@ -117,24 +126,24 @@ namespace DAL
     //    }
     //}
 
-//    public static int AddEvent(Event event)
-//    {
-//      try
-//      {
-//        using (YourPlaceEntities db = new YourPlaceEntities())
-//        {
-//          var q1 = db.Event.Add(event);
-//    //שמור שינוי
-//    db.SaveChanges();
-//          return 1;//יתכן שנשקול להוסיף את המספור האוטמטי החדש 
+    //    public static int AddEvent(Event event)
+    //    {
+    //      try
+    //      {
+    //        using (YourPlaceEntities db = new YourPlaceEntities())
+    //        {
+    //          var q1 = db.Event.Add(event);
+    //    //שמור שינוי
+    //    db.SaveChanges();
+    //          return 1;//יתכן שנשקול להוסיף את המספור האוטמטי החדש 
 
-//        }
-//}
-//      catch
-//{
-//  throw;
-//}
-//    }
+    //        }
+    //}
+    //      catch
+    //{
+    //  throw;
+    //}
+    //    }
     public static int DeleteEvent(int code)
     {
       try

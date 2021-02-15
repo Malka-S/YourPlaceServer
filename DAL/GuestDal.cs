@@ -119,5 +119,23 @@ namespace DAL
       }
 
     }
+    public static int GetPriority()
+    {
+      using (YourPlaceEntities db = new YourPlaceEntities())
+      {
+
+        var o = db.guest_table_member.FirstOrDefault();
+        return o.guestPriority;
+      }
+    }
+    public static bool? GetstatusById(int id)
+    {
+      using (YourPlaceEntities db = new YourPlaceEntities())
+      {
+
+        var o = db.guest_table_member.Where(e => e.guest_id == id).FirstOrDefault();
+        return o.like_or_not;
+      }
+    }
   }
 }

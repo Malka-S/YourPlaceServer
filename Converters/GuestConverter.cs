@@ -23,6 +23,7 @@ namespace Converters
       //gu.guest_tz = g.guest_tz;
       gu.guest_message_befor = g.guest_message_befor;
       gu.guest_message_after = g.guest_message_after;
+      gu.guest_catagory_id = g.guest_category_id;
       return gu;
     }
     public static Common.DTO.GuestDto ToDtoGuest( Guest g)

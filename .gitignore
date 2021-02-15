@@ -44,3 +44,6 @@ testem.log
 # System Files
 .DS_Store
 Thumbs.db
+/DAL/DAL.csproj.user
+/Common/Common.csproj.user
+/BLL/BLL.csproj.user

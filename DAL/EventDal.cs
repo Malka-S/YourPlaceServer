@@ -22,6 +22,26 @@ namespace DAL
         return db.Event.ToList();
       }
     }
+    public static string GetInvatation(int id)
+    {
+
+      using (YourPlaceEntities db = new YourPlaceEntities())
+      {
+        string invatation = null;
+
+        string query = @"SELECT e.invitation_file FROM Event e  where e.event_id=" + id + ";";
+        SqlCommand cmd = new SqlCommand(query);
+        SqlDataReader dr = cmd.ExecuteReader();
+
+        if (dr.HasRows)
+          while (dr.Read())
+            invatation = dr.GetString(0);
+        else
+          Console.WriteLine("No data found.");
+
+        return invatation;
+      }
+    }
     public static int UpdateEvent(Event event1)
     {
       try

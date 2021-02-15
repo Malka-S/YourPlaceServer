@@ -4,6 +4,7 @@ using System.Linq;
 using System.Net;
 using System.Net.Http;
 using System.Web.Http;
+using System.Web.Mvc;
 //using System.Web.Mvc;
 
 namespace API.Controllers
@@ -12,7 +13,8 @@ namespace API.Controllers
 
   public class UserLoginController : ApiController
   {
-    [HttpGet]
+    [RequireHttps]
+    [System.Web.Http.HttpGet]
     [System.Web.Http.Route("Login")]
 
     public IHttpActionResult Login(string userEmail, string password)
@@ -46,8 +48,9 @@ namespace API.Controllers
         return BadRequest(e.Message);
       }
     }
-    [HttpPut]
-
+    [RequireHttps]
+    [System.Web.Http.HttpPut]
+    [System.Web.Http.Route("PutUser")]
     public IHttpActionResult PutUser(Common.DTO.UserDto user)
     {
       try

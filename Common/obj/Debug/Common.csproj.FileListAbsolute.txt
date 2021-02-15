@@ -26,3 +26,9 @@ C:\Users\Angular\Desktop\פרויקט\YourPlace\Common\bin\Debug\Common.pdb
 C:\Users\Angular\Desktop\פרויקט\YourPlace\Common\obj\Debug\Common.csproj.CoreCompileInputs.cache
 C:\Users\Angular\Desktop\פרויקט\YourPlace\Common\obj\Debug\Common.dll
 C:\Users\Angular\Desktop\פרויקט\YourPlace\Common\obj\Debug\Common.pdb
+C:\Users\Angular\Desktop\yourPlace2\YourPlaceServer\Common\bin\Debug\Common.dll
+C:\Users\Angular\Desktop\yourPlace2\YourPlaceServer\Common\bin\Debug\Common.pdb
+C:\Users\Angular\Desktop\yourPlace2\YourPlaceServer\Common\obj\Debug\Common.csprojAssemblyReference.cache
+C:\Users\Angular\Desktop\yourPlace2\YourPlaceServer\Common\obj\Debug\Common.csproj.CoreCompileInputs.cache
+C:\Users\Angular\Desktop\yourPlace2\YourPlaceServer\Common\obj\Debug\Common.dll
+C:\Users\Angular\Desktop\yourPlace2\YourPlaceServer\Common\obj\Debug\Common.pdb

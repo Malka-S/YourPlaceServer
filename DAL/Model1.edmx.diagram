@@ -25,6 +25,7 @@
         <AssociationConnector Association="YourPlaceModel.FK__guest_tab__guest__398D8EEE" ManuallyRouted="false" />
         <AssociationConnector Association="YourPlaceModel.FK__Guest_tab__table__34C8D9D1" ManuallyRouted="false" />
         <AssociationConnector Association="YourPlaceModel.FK__Tables__category__3B75D760" ManuallyRouted="false" />
+        <AssociationConnector Association="YourPlaceModel.FK__Event__event_typ__46E78A0C" />
       </Diagram>
     </edmx:Diagrams>
   </edmx:Designer>

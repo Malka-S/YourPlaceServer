@@ -27,9 +27,8 @@ namespace DAL
         public Nullable<int> user_id { get; set; }
         public string invitation_file { get; set; }
         public System.DateTime due_date { get; set; }
-        public int num_tables { get; set; }
-        public int num_places_around_a_table { get; set; }
-
+        public Nullable<int> num_tables { get; set; }
+        public Nullable<int> num_places_around_a_table { get; set; }
     
         public virtual EventType EventType { get; set; }
         public virtual Users Users { get; set; }

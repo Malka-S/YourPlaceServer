@@ -17,7 +17,7 @@ namespace DAL
       using (YourPlaceEntities db = new YourPlaceEntities())
       {
         //Context.Connection.Open();
-         //Content.Connection.Open();
+        //Content.Connection.Open();
 
         return db.Event.ToList();
       }
@@ -47,7 +47,7 @@ namespace DAL
       }
     }
 
-   
+
     public static Event SalectEvent(int code)
     {
 
@@ -86,7 +86,7 @@ namespace DAL
         return f;
       }
     }
-   
+
 
     //public static int UpdateEvent(Event event)
     //{
@@ -117,24 +117,24 @@ namespace DAL
     //    }
     //}
 
-//    public static int AddEvent(Event event)
-//    {
-//      try
-//      {
-//        using (YourPlaceEntities db = new YourPlaceEntities())
-//        {
-//          var q1 = db.Event.Add(event);
-//    //שמור שינוי
-//    db.SaveChanges();
-//          return 1;//יתכן שנשקול להוסיף את המספור האוטמטי החדש 
+    //    public static int AddEvent(Event event)
+    //    {
+    //      try
+    //      {
+    //        using (YourPlaceEntities db = new YourPlaceEntities())
+    //        {
+    //          var q1 = db.Event.Add(event);
+    //    //שמור שינוי
+    //    db.SaveChanges();
+    //          return 1;//יתכן שנשקול להוסיף את המספור האוטמטי החדש 
 
-//        }
-//}
-//      catch
-//{
-//  throw;
-//}
-//    }
+    //        }
+    //}
+    //      catch
+    //{
+    //  throw;
+    //}
+    //    }
     public static int DeleteEvent(int code)
     {
       try
@@ -160,5 +160,16 @@ namespace DAL
         throw;
       }
     }
+
+    public static int GetNumOfSeatsAroundTable()
+    {
+      using (YourPlaceEntities db = new YourPlaceEntities())
+      {
+
+        var o = db.Event.FirstOrDefault();
+        return (int)o.num_places_around_a_table;
+      }
+
+    }
   }
-}
+  }

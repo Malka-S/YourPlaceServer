@@ -65,6 +65,7 @@
           <Property Name="guest_id" Type="int" />
           <Property Name="friend_id" Type="int" />
           <Property Name="like_or_not" Type="bit" />
+          <Property Name="guestPriority" Type="int" />
         </EntityType>
         <EntityType Name="Table_category">
           <Key>
@@ -94,7 +95,7 @@
           <Property Name="user_email" Type="varchar" MaxLength="30" Nullable="false" />
           <Property Name="user_password" Type="varchar" MaxLength="30" Nullable="false" />
         </EntityType>
-        <Association Name="FK__Event__event_typ__33D4B598">
+        <Association Name="FK__Event__event_typ__46E78A0C">
           <End Role="EventType" Type="Self.EventType" Multiplicity="0..1" />
           <End Role="Event" Type="Self.Event" Multiplicity="*" />
           <ReferentialConstraint>
@@ -106,7 +107,7 @@
             </Dependent>
           </ReferentialConstraint>
         </Association>
-        <Association Name="FK__Event__user_id__34C8D9D1">
+        <Association Name="FK__Event__user_id__47DBAE45">
           <End Role="Users" Type="Self.Users" Multiplicity="0..1" />
           <End Role="Event" Type="Self.Event" Multiplicity="*" />
           <ReferentialConstraint>
@@ -118,7 +119,7 @@
             </Dependent>
           </ReferentialConstraint>
         </Association>
-        <Association Name="FK__Guest__event_id__37A5467C">
+        <Association Name="FK__Guest__event_id__4AB81AF0">
           <End Role="Event" Type="Self.Event" Multiplicity="0..1" />
           <End Role="Guest" Type="Self.Guest" Multiplicity="*" />
           <ReferentialConstraint>
@@ -130,7 +131,7 @@
             </Dependent>
           </ReferentialConstraint>
         </Association>
-        <Association Name="FK__Guest__guest_cat__398D8EEE">
+        <Association Name="FK__Guest__guest_cat__4CA06362">
           <End Role="Guest_catagory" Type="Self.Guest_catagory" Multiplicity="0..1" />
           <End Role="Guest" Type="Self.Guest" Multiplicity="*" />
           <ReferentialConstraint>
@@ -142,7 +143,7 @@
             </Dependent>
           </ReferentialConstraint>
         </Association>
-        <Association Name="FK__Guest__table_id__38996AB5">
+        <Association Name="FK__Guest__table_id__4BAC3F29">
           <End Role="Tables" Type="Self.Tables" Multiplicity="0..1" />
           <End Role="Guest" Type="Self.Guest" Multiplicity="*" />
           <ReferentialConstraint>
@@ -154,7 +155,7 @@
             </Dependent>
           </ReferentialConstraint>
         </Association>
-        <Association Name="FK__guest_tab__frien__3B75D760">
+        <Association Name="FK__guest_tab__frien__4E88ABD4">
           <End Role="Guest" Type="Self.Guest" Multiplicity="0..1" />
           <End Role="guest_table_member" Type="Self.guest_table_member" Multiplicity="*" />
           <ReferentialConstraint>
@@ -166,7 +167,7 @@
             </Dependent>
           </ReferentialConstraint>
         </Association>
-        <Association Name="FK__Guest_tab__guest__36B12243">
+        <Association Name="FK__Guest_tab__guest__49C3F6B7">
           <End Role="Guest" Type="Self.Guest" Multiplicity="0..1" />
           <End Role="Guest_table" Type="Self.Guest_table" Multiplicity="*" />
           <ReferentialConstraint>
@@ -178,7 +179,7 @@
             </Dependent>
           </ReferentialConstraint>
         </Association>
-        <Association Name="FK__guest_tab__guest__3A81B327">
+        <Association Name="FK__guest_tab__guest__4D94879B">
           <End Role="Guest" Type="Self.Guest" Multiplicity="0..1" />
           <End Role="guest_table_member" Type="Self.guest_table_member" Multiplicity="*" />
           <ReferentialConstraint>
@@ -190,7 +191,7 @@
             </Dependent>
           </ReferentialConstraint>
         </Association>
-        <Association Name="FK__Guest_tab__table__35BCFE0A">
+        <Association Name="FK__Guest_tab__table__48CFD27E">
           <End Role="Tables" Type="Self.Tables" Multiplicity="0..1" />
           <End Role="Guest_table" Type="Self.Guest_table" Multiplicity="*" />
           <ReferentialConstraint>
@@ -202,7 +203,7 @@
             </Dependent>
           </ReferentialConstraint>
         </Association>
-        <Association Name="FK__Tables__category__3C69FB99">
+        <Association Name="FK__Tables__category__4F7CD00D">
           <End Role="Table_category" Type="Self.Table_category" Multiplicity="0..1" />
           <End Role="Tables" Type="Self.Tables" Multiplicity="*" />
           <ReferentialConstraint>
@@ -224,43 +225,43 @@
           <EntitySet Name="Table_category" EntityType="Self.Table_category" Schema="dbo" store:Type="Tables" />
           <EntitySet Name="Tables" EntityType="Self.Tables" Schema="dbo" store:Type="Tables" />
           <EntitySet Name="Users" EntityType="Self.Users" Schema="dbo" store:Type="Tables" />
-          <AssociationSet Name="FK__Event__event_typ__33D4B598" Association="Self.FK__Event__event_typ__33D4B598">
+          <AssociationSet Name="FK__Event__event_typ__46E78A0C" Association="Self.FK__Event__event_typ__46E78A0C">
             <End Role="EventType" EntitySet="EventType" />
             <End Role="Event" EntitySet="Event" />
           </AssociationSet>
-          <AssociationSet Name="FK__Event__user_id__34C8D9D1" Association="Self.FK__Event__user_id__34C8D9D1">
+          <AssociationSet Name="FK__Event__user_id__47DBAE45" Association="Self.FK__Event__user_id__47DBAE45">
             <End Role="Users" EntitySet="Users" />
             <End Role="Event" EntitySet="Event" />
           </AssociationSet>
-          <AssociationSet Name="FK__Guest__event_id__37A5467C" Association="Self.FK__Guest__event_id__37A5467C">
+          <AssociationSet Name="FK__Guest__event_id__4AB81AF0" Association="Self.FK__Guest__event_id__4AB81AF0">
             <End Role="Event" EntitySet="Event" />
             <End Role="Guest" EntitySet="Guest" />
           </AssociationSet>
-          <AssociationSet Name="FK__Guest__guest_cat__398D8EEE" Association="Self.FK__Guest__guest_cat__398D8EEE">
+          <AssociationSet Name="FK__Guest__guest_cat__4CA06362" Association="Self.FK__Guest__guest_cat__4CA06362">
             <End Role="Guest_catagory" EntitySet="Guest_catagory" />
             <End Role="Guest" EntitySet="Guest" />
           </AssociationSet>
-          <AssociationSet Name="FK__Guest__table_id__38996AB5" Association="Self.FK__Guest__table_id__38996AB5">
+          <AssociationSet Name="FK__Guest__table_id__4BAC3F29" Association="Self.FK__Guest__table_id__4BAC3F29">
             <End Role="Tables" EntitySet="Tables" />
             <End Role="Guest" EntitySet="Guest" />
           </AssociationSet>
-          <AssociationSet Name="FK__guest_tab__frien__3B75D760" Association="Self.FK__guest_tab__frien__3B75D760">
+          <AssociationSet Name="FK__guest_tab__frien__4E88ABD4" Association="Self.FK__guest_tab__frien__4E88ABD4">
             <End Role="Guest" EntitySet="Guest" />
             <End Role="guest_table_member" EntitySet="guest_table_member" />
           </AssociationSet>
-          <AssociationSet Name="FK__Guest_tab__guest__36B12243" Association="Self.FK__Guest_tab__guest__36B12243">
+          <AssociationSet Name="FK__Guest_tab__guest__49C3F6B7" Association="Self.FK__Guest_tab__guest__49C3F6B7">
             <End Role="Guest" EntitySet="Guest" />
             <End Role="Guest_table" EntitySet="Guest_table" />
           </AssociationSet>
-          <AssociationSet Name="FK__guest_tab__guest__3A81B327" Association="Self.FK__guest_tab__guest__3A81B327">
+          <AssociationSet Name="FK__guest_tab__guest__4D94879B" Association="Self.FK__guest_tab__guest__4D94879B">
             <End Role="Guest" EntitySet="Guest" />
             <End Role="guest_table_member" EntitySet="guest_table_member" />
           </AssociationSet>
-          <AssociationSet Name="FK__Guest_tab__table__35BCFE0A" Association="Self.FK__Guest_tab__table__35BCFE0A">
+          <AssociationSet Name="FK__Guest_tab__table__48CFD27E" Association="Self.FK__Guest_tab__table__48CFD27E">
             <End Role="Tables" EntitySet="Tables" />
             <End Role="Guest_table" EntitySet="Guest_table" />
           </AssociationSet>
-          <AssociationSet Name="FK__Tables__category__3C69FB99" Association="Self.FK__Tables__category__3C69FB99">
+          <AssociationSet Name="FK__Tables__category__4F7CD00D" Association="Self.FK__Tables__category__4F7CD00D">
             <End Role="Table_category" EntitySet="Table_category" />
             <End Role="Tables" EntitySet="Tables" />
           </AssociationSet>
@@ -344,6 +345,7 @@
           <Property Name="like_or_not" Type="Boolean" />
           <NavigationProperty Name="Guest" Relationship="Self.FK__guest_tab__frien__3A81B327" FromRole="guest_table_member" ToRole="Guest" />
           <NavigationProperty Name="Guest1" Relationship="Self.FK__guest_tab__guest__398D8EEE" FromRole="guest_table_member" ToRole="Guest" />
+          <Property Name="guestPriority" Type="Int32" />
         </EntityType>
         <!--<EntityType Name="sysdiagrams">
           <Key>
@@ -626,6 +628,7 @@
           <EntitySetMapping Name="guest_table_member">
             <EntityTypeMapping TypeName="YourPlaceModel.guest_table_member">
               <MappingFragment StoreEntitySet="guest_table_member">
+                <ScalarProperty Name="guestPriority" ColumnName="guestPriority" />
                 <ScalarProperty Name="table_members_id" ColumnName="table_members_id" />
                 <ScalarProperty Name="guest_id" ColumnName="guest_id" />
                 <ScalarProperty Name="friend_id" ColumnName="friend_id" />

@@ -18,6 +18,7 @@ namespace DAL
         public Nullable<int> guest_id { get; set; }
         public Nullable<int> friend_id { get; set; }
         public Nullable<bool> like_or_not { get; set; }
+        public Nullable<int> guestPriority { get; set; }
     
         public virtual Guest Guest { get; set; }
         public virtual Guest Guest1 { get; set; }

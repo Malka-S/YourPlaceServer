@@ -102,12 +102,30 @@ namespace API.Controllers
     }
     //add
     [System.Web.Http.HttpPut]
+    [System.Web.Http.Route("PutGuest")]
 
     public IHttpActionResult PutGuest(Common.DTO.GuestDto guest)
     {
       try
       {
         var q = BLL.GuestService.AddGuest(guest);
+        //if (q == null)
+        //  return NotFound();
+        return Ok(q);
+      }
+      catch (Exception e)
+      {
+        return BadRequest(e.Message);
+      }
+    }
+    [System.Web.Http.HttpPut]
+    [System.Web.Http.Route("PutGuestTM")]
+
+    public IHttpActionResult PutGuestTM(Common.DTO.TMDto guest)
+    {
+      try
+      {
+        var q = BLL.GuestService.AddGuestTM(guest);
         //if (q == null)
         //  return NotFound();
         return Ok(q);

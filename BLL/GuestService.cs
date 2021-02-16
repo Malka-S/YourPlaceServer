@@ -64,6 +64,19 @@ namespace BLL
         throw e;
       }
     }
+    public static int AddGuestTM(Common.DTO.TMDto guest)
+    {
+      try
+      {
+        return DAL.TMDal.AddGuestTM(Converters.TMConverter.ToDalGuest(guest));
+      }
+      catch (Exception e)
+      {
+
+        throw e;
+      }
+    }
+
     public static int UpdateGuest(Common.DTO.GuestDto guest)
     {
       try

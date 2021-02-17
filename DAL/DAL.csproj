@@ -96,6 +96,7 @@
     <Compile Include="Table_category.cs">
       <DependentUpon>Model1.tt</DependentUpon>
     </Compile>
+    <Compile Include="TMDal.cs" />
     <Compile Include="UserDal.cs" />
     <Compile Include="Users.cs">
       <DependentUpon>Model1.tt</DependentUpon>

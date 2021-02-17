@@ -8,25 +8,25 @@ using System.Web.Http;
 
 namespace API.Controllers
 {
-  [System.Web.Http.RoutePrefix("api/User")]
+  [System.Web.Http.RoutePrefix("api/UserLogin")]
 
   public class UserLoginController : ApiController
   {
     [HttpGet]
     [System.Web.Http.Route("Login")]
 
-    public IHttpActionResult Login(string userEmail, string password)
+    public bool Login(string userEmail, string password)
     {
       try
       {
         var q = BLL.UserService.GetUserByEmail(userEmail,password);
-        if (q == true)
-          return Ok(q);
-        return NotFound();
+        if (q)
+          return q;
+        return false;
       }
-      catch (Exception e)
+      catch 
       {
-        return BadRequest(e.Message);
+        return false;
       }
     }
 

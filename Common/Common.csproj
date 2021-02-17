@@ -45,6 +45,7 @@
     <Compile Include="DTO\BaseCodeDto.cs" />
     <Compile Include="DTO\EventDto.cs" />
     <Compile Include="DTO\GuestDto.cs" />
+    <Compile Include="DTO\TMDto.cs" />
     <Compile Include="DTO\UserDto.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

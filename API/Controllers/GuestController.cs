@@ -46,6 +46,54 @@ namespace API.Controllers
         return BadRequest(e.Message);
       }
     }
+
+    public IHttpActionResult GetGuestsByCategory(string category)
+    {
+      try
+      {
+        var q = BLL.GuestService.GetGuestListByCategory(category);
+        if (q != null)
+          return Ok(q);
+        return NotFound();
+      }
+      catch (Exception e)
+      {
+        return BadRequest(e.Message);
+      }
+    }
+
+    [System.Web.Http.Route("GetGuestsById")]
+
+    public IHttpActionResult GetGuestsById(int id)
+    {
+      try
+      {
+        var q = BLL.GuestService.GetGuestById(id);
+        if (q != null)
+          return Ok(q);
+        return NotFound();
+      }
+      catch (Exception e)
+      {
+        return BadRequest(e.Message);
+      }
+    }
+    [System.Web.Http.Route("GetCategoryById")]
+
+    public IHttpActionResult GetCategoryById(int id)
+    {
+      try
+      {
+        var q = BLL.GuestService.GetCategoryByGId(id);
+        if (q != null)
+          return Ok(q);
+        return NotFound();
+      }
+      catch (Exception e)
+      {
+        return BadRequest(e.Message);
+      }
+    }
     [System.Web.Http.HttpDelete]
     [System.Web.Http.Route("deleteGuestById")]
 
@@ -70,36 +118,6 @@ namespace API.Controllers
     }
     [System.Web.Http.Route("GetGuestsByCategory")]
 
-    public IHttpActionResult GetGuestsByCategory(string category)
-    {
-      try
-      {
-        var q = BLL.GuestService.GetGuestListByCategory(category);
-        if (q != null)
-          return Ok(q);
-        return NotFound();
-      }
-      catch (Exception e)
-      {
-        return BadRequest(e.Message);
-      }
-    }
-    [System.Web.Http.Route("GetGuestsById")]
-
-    public IHttpActionResult GetGuestsById(int id)
-    {
-      try
-      {
-        var q = BLL.GuestService.GetGuestById(id);
-        if (q != null)
-          return Ok(q);
-        return NotFound();
-      }
-      catch (Exception e)
-      {
-        return BadRequest(e.Message);
-      }
-    }
     //add
     [System.Web.Http.HttpPut]
     [System.Web.Http.Route("PutGuest")]
@@ -121,14 +139,16 @@ namespace API.Controllers
     [System.Web.Http.HttpPut]
     [System.Web.Http.Route("PutGuestTM")]
 
-    public IHttpActionResult PutGuestTM(Common.DTO.TMDto guest)
+    public IHttpActionResult PutGuestTM(Common.DTO.TMDto[] guests)
     {
       try
       {
-        var q = BLL.GuestService.AddGuestTM(guest);
-        //if (q == null)
-        //  return NotFound();
-        return Ok(q);
+        foreach (var g in guests)
+        {
+          var q = BLL.GuestService.AddGuestTM(g);
+        }
+        return Ok();
+
       }
       catch (Exception e)
       {

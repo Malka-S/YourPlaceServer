@@ -87,6 +87,18 @@ namespace BLL
         throw e;
       }
     }
+    public static int AddEvent(Common.DTO.EventDto event1)
+    {
+      try
+      {
+        return DAL.EventDal.AddEvent(Converters.EventConverter.ToDalEvent(event1));
+       }
+        catch (Exception e)
+        {
+
+            throw;
+        }
+     }
     //public static int UpdateEvent(Common.DTO.EventDto event1)
     //{
     //  try
@@ -100,18 +112,7 @@ namespace BLL
     //  }
     //}
 
-    //public static int AddEvent(Common.DTO.EventDto event)
-    //{
-    //    try
-    //    {
-    //        return DAL.EventDal.AddEvent(Converters.EventConverter.ToDalEvent(event));
-    //    }
-    //    catch (Exception e)
-    //    {
-
-    //        throw;
-    //    }
-    //}
-  }
+  
+   }
 }
 

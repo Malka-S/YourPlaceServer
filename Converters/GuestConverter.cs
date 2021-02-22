@@ -25,6 +25,20 @@ namespace Converters
       gu.guest_message_after = g.guest_message_after;
       return gu;
     }
+    public static Guest ToDalGuestEdit(GuestDto g)
+    {
+      Guest gu = new Guest();
+
+      gu.guest_id = g.guest_id;
+      gu.guest_first_name = g.guest_first_name;
+      gu.guest_last_name = g.guest_last_name;
+      gu.guest_email = g.guest_email;
+      gu.gender = g.gender;
+      //gu.guest_tz = g.guest_tz;
+      gu.guest_message_befor = g.guest_message_befor;
+      gu.guest_message_after = g.guest_message_after;
+      return gu;
+    }
     public static Common.DTO.GuestDto ToDtoGuest( Guest g)
     {
       Common.DTO.GuestDto gu = new Common.DTO.GuestDto();

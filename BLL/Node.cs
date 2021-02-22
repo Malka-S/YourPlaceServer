@@ -6,12 +6,12 @@ using System.Threading.Tasks;
 
 namespace BLL
 {
-  public class Node
-  {
+  //public class Node
+  //{
 
-    public int guest_id;
-   // public int satisfy { get; set; }
-    public int satisfy=0;
+  //  public int guest_id;
+  // // public int satisfy { get; set; }
+  //  public int satisfy=0;
  
-  }
+  //}
 }

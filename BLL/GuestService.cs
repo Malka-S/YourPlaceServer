@@ -19,6 +19,17 @@ namespace BLL
         throw e;
       }
     }
+    public static List<Common.DTO.GuestDto> GetGuestListByEventId(int ev_id)
+    {
+      try
+      {
+        return Converters.GuestConverter.ToDtoGuestList(DAL.GuestDal.GetAllGuestByEventId(ev_id));
+      }
+      catch (Exception e)
+      {
+        throw e;
+      }
+    }
     public static List<Common.DTO.GuestDto> GetGuestListByCategory(string category)
     {
       try
@@ -41,6 +52,18 @@ namespace BLL
         throw e;
       }
     }
+    public static string GetCategoryByGId(int id)
+    {
+      try
+      {
+        return DAL.GuestDal.SelectCategoryById(id);
+      }
+      catch (Exception e)
+      {
+        throw e;
+      }
+    }
+  
     public static List<Common.DTO.BaseCodeDto> GetCatagoryList()
     {
       try
@@ -81,7 +104,7 @@ namespace BLL
     {
       try
       {
-        return DAL.GuestDal.UpdateGuest(Converters.GuestConverter.ToDalGuest(guest));
+        return DAL.GuestDal.UpdateGuest(Converters.GuestConverter.ToDalGuestEdit(guest));
       }
       catch (Exception e)
       {

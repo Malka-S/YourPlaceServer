@@ -1,5 +1,6 @@
 using System;
 using System.Collections.Generic;
+using System.Data.SqlClient;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -55,6 +56,38 @@ namespace DAL
         throw e;
       }
     }
+
+    public static List<Guest> GetAllGuestByEventId(int eventId)
+    {
+      using (YourPlaceEntities db = new YourPlaceEntities())
+      {
+
+        return db.Guest.Where(e => e.event_id == eventId).ToList();
+      }
+    }
+    public static List<string> GetGuestMail(int id)
+    {
+
+      using (YourPlaceEntities db = new YourPlaceEntities())
+      {
+        List<string> guestMail = null;
+
+        string query = @"SELECT e.guest_email FROM Guest e  where e.event_id=" + id + ";";
+        SqlCommand cmd = new SqlCommand(query);
+        SqlDataReader dr = cmd.ExecuteReader();
+
+        if (dr.HasRows)
+        {
+          int i = 0;
+          while (dr.Read())
+            guestMail.Add(dr.GetString(i++));
+        }
+        else
+          Console.WriteLine("No data found.");
+
+        return guestMail;
+      }
+    }
     public static List<Guest> SelectGuestsByCatagory(string category)
     {
 
@@ -74,7 +107,22 @@ namespace DAL
         return L.Count();
       }
     }
+    public static string SelectCategoryById(int g_id)
+    {
 
+      using (YourPlaceEntities db = new YourPlaceEntities())
+      {
+        return GetCategoryByCId((int)db.Guest.FirstOrDefault(e => e.guest_id == g_id).guest_catagory_id);
+      }
+    }
+    public static string GetCategoryByCId(int c_id)
+    {
+
+      using (YourPlaceEntities db = new YourPlaceEntities())
+      {
+        return db.Guest_catagory.FirstOrDefault(e => e.guest_catagory_id == c_id).guest_catagory_des;
+      }
+    }
     public static List<Guest> SelectGuestsById(int id)
     {
 

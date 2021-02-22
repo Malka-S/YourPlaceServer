@@ -125,7 +125,7 @@ namespace DAL
         throw e;
       }
     }
-    public static bool? GetstatusOfFById(int id, int f_id)
+    public static bool GetstatusOfFById(int id, int f_id)
     {
       try
       {
@@ -133,7 +133,7 @@ namespace DAL
         {
 
           var o = db.guest_table_member.Where(e => e.guest_id == id & e.friend_id == f_id).FirstOrDefault();
-          return o.like_or_not;
+          return (bool)o.like_or_not;
         }
       }
       catch (Exception e)

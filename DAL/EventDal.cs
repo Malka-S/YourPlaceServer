@@ -28,26 +28,62 @@ namespace DAL
       {
         using (YourPlaceEntities db = new YourPlaceEntities())
         {
-          var q1 = db.Event.FirstOrDefault(e => e.event_id == event1.event_id);
-          q1.event_date = event1.event_date;
-          q1.due_date = event1.due_date;
-          q1.event_id = event1.event_id;
-          q1.event_type_id = event1.event_type_id;
-          q1.invitation_file = event1.invitation_file;
-          q1.num_places_around_a_table = event1.num_places_around_a_table;
-          q1.num_tables = event1.num_tables;
-          q1.user_id = event1.user_id;
+          var q1 = db.Event.Add(event1);
+          //שמור שינוי
           db.SaveChanges();
-          return 1;
+          return 1;//יתכן שנשקול להוסיף את המספור האוטמטי החדש 
+          //var q1 = db.Event.FirstOrDefault(e => e.event_id == event1.event_id);
+          //q1.event_date = event1.event_date;
+          //q1.due_date = event1.due_date;
+          //q1.event_id = event1.event_id;
+          //q1.event_type_id = event1.event_type_id;
+          //q1.invitation_file = event1.invitation_file;
+          //q1.num_places_around_a_table = event1.num_places_around_a_table;
+          //q1.num_tables = event1.num_tables;
+          //q1.user_id = event1.user_id;
+          //db.SaveChanges();
+          //return 1;
         }
       }
-      catch
+      catch (Exception e)
       {
-        throw;
+        throw e;
       }
     }
 
+    public static string GetInvatation(int id)
+    {
+      try
+      {
+        using (YourPlaceEntities db = new YourPlaceEntities())
+        {
 
+          Event event1=db.Event.FirstOrDefault(e => e.event_id == id);
+      
+          return (string)event1.invitation_file;
+        }
+      }
+      catch(Exception e)
+      {
+        throw e;
+      }
+      //using (YourPlaceEntities db = new YourPlaceEntities())
+      //{
+      //  string invatation = null;
+
+      //  string query = @"SELECT e.invitation_file FROM Event e  where e.event_id=" + id + ";";
+      //  SqlCommand cmd = new SqlCommand(query);
+      //  SqlDataReader dr = cmd.ExecuteReader();
+
+      //  if (dr.HasRows)
+      //    while (dr.Read())
+      //      invatation = dr.GetString(0);
+      //  else
+      //    Console.WriteLine("No data found.");
+
+      //  return invatation;
+      //}
+    }
     public static Event SalectEvent(int code)
     {
 
@@ -117,24 +153,24 @@ namespace DAL
     //    }
     //}
 
-    //    public static int AddEvent(Event event)
-    //    {
-    //      try
-    //      {
-    //        using (YourPlaceEntities db = new YourPlaceEntities())
-    //        {
-    //          var q1 = db.Event.Add(event);
-    //    //שמור שינוי
-    //    db.SaveChanges();
-    //          return 1;//יתכן שנשקול להוסיף את המספור האוטמטי החדש 
+    public static int AddEvent(Event event1)
+        {
+      try
+      {
+        using (YourPlaceEntities db = new YourPlaceEntities())
+        {
+          var q1 = db.Event.Add(event1);
+    //שמור שינוי
+    db.SaveChanges();
+              return 1;//יתכן שנשקול להוסיף את המספור האוטמטי החדש 
 
-    //        }
-    //}
-    //      catch
-    //{
-    //  throw;
-    //}
-    //    }
+            }
+}
+          catch
+{
+  throw;
+}
+        }
     public static int DeleteEvent(int code)
     {
       try

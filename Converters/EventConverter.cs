@@ -24,6 +24,8 @@ namespace Converters
       ev.event_des = e.event_des;
       ev.user_id = e.user_id;
       ev.due_date = e.due_date;
+      ev.num_places_around_a_table = e.num_places_around_a_table;
+      ev.num_tables = e.num_tables;
       ///....
       return ev;
     }

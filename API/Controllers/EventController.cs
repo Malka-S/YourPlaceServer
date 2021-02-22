@@ -134,14 +134,14 @@ namespace API.Controllers
     }
 
     [RequireHttps]
-    [System.Web.Http.HttpPost]
-    [System.Web.Http.Route("PostEvent")]
-    public IHttpActionResult PostEvent([FromBody]EventDto request)
+    [System.Web.Http.HttpPut]
+    [System.Web.Http.Route("PutEvent")]
+    public IHttpActionResult PutEvent(EventDto event1)
     {
       try
       {
 
-        int x = BLL.EventService.UpdateEvent(request);
+        int x = BLL.EventService.UpdateEvent(event1);
         if (x == 0)
           return NotFound();
         else
@@ -156,12 +156,24 @@ namespace API.Controllers
       }
 
     }
-    //[RequireHttps]
-    //[System.Web.Http.HttpPost]
-    //[System.Web.Http.Route("PostEvent")]
-    //public HttpResponseMessage Post(EventDto model)
-    //{
-    //  return Request.CreateResponse<string>(HttpStatusCode.OK, "Value Recieved: " + model.event_date);
-    //}
+    [RequireHttps]
+    [System.Web.Http.HttpPost]
+    [System.Web.Http.Route("PostEvent")]
+    public IHttpActionResult PostEvent(EventDto event1)
+    {
+      try
+      {
+
+        int x = BLL.EventService.AddEvent(event1);
+        if (x == 0)
+          return NotFound();
+        else
+          return Ok(x);
+      }
+      catch (Exception e)
+      {
+        return BadRequest(e.Message);
+      }
+    }
   }
 }

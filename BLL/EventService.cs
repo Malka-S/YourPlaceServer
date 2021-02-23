@@ -96,7 +96,7 @@ namespace BLL
         catch (Exception e)
         {
 
-            throw;
+            throw e;
         }
      }
     //public static int UpdateEvent(Common.DTO.EventDto event1)

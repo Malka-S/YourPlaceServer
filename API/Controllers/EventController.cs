@@ -52,7 +52,6 @@ namespace API.Controllers
 
     //Rout עם פרמטרים
     //יש לכלול פרמטרים בהגדרת הנתיב
-    [System.Web.Http.HttpGet]
     [System.Web.Http.Route("GetByCode")]
     public IHttpActionResult GetEventByCode(int code)
     {
@@ -62,7 +61,6 @@ namespace API.Controllers
       return Ok(q1);
 
     }
-
 
     //מחיקה
     //.../api/Event/1016
@@ -85,6 +83,48 @@ namespace API.Controllers
       }
       return response;
     }
+    [RequireHttps]
+    [System.Web.Http.Route("PostEvent")]
+    public IHttpActionResult PostEvent(EventDto event1)
+    {
+      try
+      {
+
+        int x = BLL.EventService.AddEvent(event1);
+        if (x == 0)
+          return NotFound();
+        else
+          return Ok(x);
+      }
+      catch (Exception e)
+      {
+        return BadRequest(e.Message);
+      }
+    }
+
+    [RequireHttps]
+    [System.Web.Http.Route("PostCategoryiesList")]
+    public IHttpActionResult PostCategoryiesList(List<BaseCodeDto> CategoryiesList)
+    {
+      try
+      {
+        int x = BLL.EventService.updateCategoryiesList(CategoryiesList);
+        if (x == 0)
+          return NotFound();
+        else
+          return Ok(x);
+      }
+      catch (Exception e)
+      {
+        //שקרא לה תפס אותה וגם הוא זרק אותהbll היא נזרקה ואז הdal במקרה שגיאה ב
+        //תפס את השגיאה והוא מעביר את טקסט השגיאה ללקוחbll שהפעיל את הwebapi ה
+        //האנגולר יוכל לראות שחזר שגיאה ומה הייתה השגיאה 
+        return BadRequest(e.Message);
+      }
+    }
+    [RequireHttps]
+    [System.Web.Http.Route("DeleteEventByCode")]
+
     public IHttpActionResult DeleteEventByCode(int code)
     {
       //מה אנחנו צריכות לעשות עכשיחו
@@ -111,27 +151,7 @@ namespace API.Controllers
 
     }
 
-    [RequireHttps]
-    [System.Web.Http.HttpPost]
-    [System.Web.Http.Route("PostCategoryiesList")]
-    public IHttpActionResult PostCategoryiesList(List<BaseCodeDto> CategoryiesList)
-    {
-      try
-      {
-        int x = BLL.EventService.updateCategoryiesList(CategoryiesList);
-            if (x == 0)
-                return NotFound();
-            else
-                return Ok(x);
-  }
-        catch (Exception e)
-        {
-            //שקרא לה תפס אותה וגם הוא זרק אותהbll היא נזרקה ואז הdal במקרה שגיאה ב
-            //תפס את השגיאה והוא מעביר את טקסט השגיאה ללקוחbll שהפעיל את הwebapi ה
-            //האנגולר יוכל לראות שחזר שגיאה ומה הייתה השגיאה 
-            return BadRequest(e.Message);
-}
-    }
+
 
     [RequireHttps]
     [System.Web.Http.HttpPut]
@@ -155,25 +175,6 @@ namespace API.Controllers
         return BadRequest(e.Message);
       }
 
-    }
-    [RequireHttps]
-    [System.Web.Http.HttpPost]
-    [System.Web.Http.Route("PostEvent")]
-    public IHttpActionResult PostEvent(EventDto event1)
-    {
-      try
-      {
-
-        int x = BLL.EventService.AddEvent(event1);
-        if (x == 0)
-          return NotFound();
-        else
-          return Ok(x);
-      }
-      catch (Exception e)
-      {
-        return BadRequest(e.Message);
-      }
     }
   }
 }

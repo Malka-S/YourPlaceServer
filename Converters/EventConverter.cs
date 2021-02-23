@@ -31,9 +31,11 @@ namespace Converters
     }
     public static EventDto ToDtoEvent(Event e)
     {
-      EventDto ev = new EventDto();
-      ev.event_id = e.event_id;
-      ev.invitation_file = e.invitation_file;
+      EventDto ev = new EventDto
+      {
+        event_id = e.event_id,
+        invitation_file = e.invitation_file
+      };
       return ev;
 
     }

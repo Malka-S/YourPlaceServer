@@ -13,9 +13,9 @@ namespace Converters
     public static Guest ToDalGuest(GuestDto g)
     {
        Guest gu = new  Guest();
-      Random rand = new Random();
+      //Random rand = new Random();
       //עשיתי מספרים גבוהים כי ךא עובד הבדיקה
-      gu.guest_id = rand.Next(100,10000);
+      gu.guest_id =  GuestDal.GetHID() + 1;
       gu.guest_first_name = g.guest_first_name;
       gu.guest_last_name = g.guest_last_name;
       gu.guest_email = g.guest_email;

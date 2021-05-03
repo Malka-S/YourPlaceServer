@@ -65,29 +65,32 @@ namespace DAL
         return db.Guest.Where(e => e.event_id == eventId).ToList();
       }
     }
-    public static List<string> GetGuestMail(int id)
+    public static List<Guest> GetAllGuestConfirmed()
+    {
+      using (YourPlaceEntities db = new YourPlaceEntities())
+      {
+        //tnur kvhu, to thar va,,pu,
+        return db.Guest.Where(e => e.gender =="female").ToList();
+      }
+    }
+    public static List<Guest> GetAllGuestNotConfirmed()
+    {
+      using (YourPlaceEntities db = new YourPlaceEntities())
+      {
+//אמור להיות כל מי שלא אישר השתתפות
+        return db.Guest.Where(e => e.gender == "male").ToList();
+      }
+    }
+    public static int GetHID()
     {
 
       using (YourPlaceEntities db = new YourPlaceEntities())
       {
-        List<string> guestMail = null;
 
-        string query = @"SELECT e.guest_email FROM Guest e  where e.event_id=" + id + ";";
-        SqlCommand cmd = new SqlCommand(query);
-        SqlDataReader dr = cmd.ExecuteReader();
-
-        if (dr.HasRows)
-        {
-          int i = 0;
-          while (dr.Read())
-            guestMail.Add(dr.GetString(i++));
-        }
-        else
-          Console.WriteLine("No data found.");
-
-        return guestMail;
+        return db.Guest.Max(e => e.guest_id);        
       }
     }
+
     public static List<Guest> SelectGuestsByCatagory(string category)
     {
 
@@ -158,17 +161,13 @@ namespace DAL
       {
         using (YourPlaceEntities db = new YourPlaceEntities())
         {
-          //אמור למחוק את האורח שקיבל 
           var q1 = db.Guest.FirstOrDefault(e=>e.guest_id==id);
           if (q1 == null)
             return 0;
           else
           {
-            //מחק
             db.Guest.Remove(q1);
-            //שמור שינוי
             db.SaveChanges();
-            //החזר 1
             return 1;
           }
         }
@@ -177,7 +176,6 @@ namespace DAL
       {
         throw e;
       }
-
     }
 
    

@@ -1,3 +1,4 @@
+using DAL;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -11,9 +12,10 @@ namespace Converters
     public static DAL.Users ToDalUser(Common.DTO.UserDto e)
     {
       DAL.Users ev = new DAL.Users();
-      Random rand = new Random();
+      //Random rand = new Random();
       //עשיתי מספרים גבוהים כי ךא עובד הבדיקה
-      ev.user_id = rand.Next(100, 10000);
+      //ev.user_id = rand.Next(100, 10000);
+      ev.user_id = UserDal.GetHID() + 1;
       ev.user_email = e.user_email;
       ev.user_password = e.user_password;
       ev.user_first_name = e.user_first_name;

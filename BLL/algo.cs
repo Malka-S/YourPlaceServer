@@ -113,22 +113,22 @@ namespace BLL
     }
 
     /// <summary>
-///הפונקציה מקבלת שולחן ואורח ומוחקת את האורח מהשולחן
-/// </summary>
+    ///הפונקציה מקבלת שולחן ואורח ומוחקת את האורח מהשולחן
+    /// </summary>
     public static void DeleteGuestFromTable(int tableId, int guestId)
     {
-      for (int i = 0; TabelList[tableId].members!=null; i++)
+      for (int i = 0; TabelList[tableId].members != null; i++)
       {
         if (TabelList[tableId].members[i].guest_id == guestId)
           TabelList[tableId].members[i] = null;
-      } 
+      }
     }
     //פונקציה היוצרת שולחן חדש ומחזירה אותו
     public static int OpenNewTable()
     {
       LTM newTableAdd = new LTM();
-        TabelList.Add(newTableAdd);
-        return newTableAdd.TableID;
+      TabelList.Add(newTableAdd);
+      return newTableAdd.TableID;
     }
 
 
@@ -142,7 +142,7 @@ namespace BLL
       }
       return LTMByCategory[c].guest_id;
     }
-
+    //פונקציה המקבלת קוד אורח ובודקת אם האורח משובץ כבר
     public static bool IsPlaced(int guestId)
     {
       for (int i = 0; i < TabelList.Count; i++)
@@ -158,7 +158,7 @@ namespace BLL
     /// <param name="guestId"></param>
     /// <param name="disOrNot"></param>
     /// <returns></returns>
-    public static bool ContradictionBetweenRequests(int tableId, int guestId,int frient_id, bool disOrNot)
+    public static bool ContradictionBetweenRequests(int tableId, int guestId, int frient_id, bool disOrNot)
     {
       return false;
     }
@@ -168,9 +168,9 @@ namespace BLL
     /// <param name="tableId"></param>
     /// <param name="guestId"></param>
     /// <returns></returns>
-    public static int Place23(int tableId,int guestId)
+    public static int Place23(int tableId, int guestId)
     {
-//בודק אם אפשר למלא את 2 הבקשות שלו בשולחן זה
+      //בודק אם אפשר למלא את 2 הבקשות שלו בשולחן זה
       //ואם לא-בוקדק אולי בשולחן אחר
 
       return 1;
@@ -181,7 +181,7 @@ namespace BLL
 
         if (TabelList[i].TableID == tableId)
           return i;
-        return -1;
+      return -1;
     }
     /// <summary>
     ///הפונקציה מקבלת אורך שולחן ושולחן מסוים ובודקת אם נשארו בו מקומות פנוים
@@ -189,7 +189,7 @@ namespace BLL
     public static bool isTableFull(int tableId, int seatsArountTable)
     {
       int i = 0;
-        while (i < seatsArountTable&& TabelList[tableId].members != null)
+      while (i < seatsArountTable && TabelList[tableId].members != null)
       {
         i++;
       }
@@ -205,18 +205,18 @@ namespace BLL
         if (item.guest_id == guestId)
           return true;
       }
-        return false;
+      return false;
     }
     public static int Main(int tableId, int guestId)
     {
-      if (!IsPlaced(guestId) && isTableFull(tableId,seatsArountTable))
+      if (!IsPlaced(guestId) && isTableFull(tableId, seatsArountTable))
       {
         int idFriend = TMDal.GetGuest3priority(guestId);
         int priority = TMDal.GetPriorityByFriend(guestId, idFriend);
 
         if (TMDal.GetstatusOfFById(guestId, idFriend) && !IsPlaced(idFriend))
         {
-          if (ContradictionBetweenRequests(tableId,guestId, idFriend, TMDal.GetstatusOfFById(guestId, idFriend)))
+          if (ContradictionBetweenRequests(tableId, guestId, idFriend, TMDal.GetstatusOfFById(guestId, idFriend)))
           {
             //ChangeInTable(tableId, idFriend);
             TabelList[tableId].members.Add(new Node() { guest_id = guestId, satisfy = priority });
@@ -230,7 +230,7 @@ namespace BLL
         //בקשה סותרת או כבר משובץ
         else
         {
-          if (!ExesitInTable(tableId, idFriend) )
+          if (!ExesitInTable(tableId, idFriend))
           {
             int newTableId = OpenNewTable();
             Place23(tableId, guestId);

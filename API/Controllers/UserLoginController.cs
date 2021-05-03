@@ -19,7 +19,7 @@ namespace API.Controllers
     {
       try
       {
-        var q = BLL.UserService.GetUserByEmail(userEmail,password);
+        var q = BLL.UserService.Login(userEmail,password);
         if (q)
           return q;
         return false;

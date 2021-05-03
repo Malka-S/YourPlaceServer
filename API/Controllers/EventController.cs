@@ -52,7 +52,7 @@ namespace API.Controllers
 
     //Rout עם פרמטרים
     //יש לכלול פרמטרים בהגדרת הנתיב
-    [System.Web.Http.Route("GetByCode")]
+    [System.Web.Http.Route("GetEventByCode")]
     public IHttpActionResult GetEventByCode(int code)
     {
       var q1 = BLL.EventService.SelectEvents(code);
@@ -61,7 +61,16 @@ namespace API.Controllers
       return Ok(q1);
 
     }
+    [System.Web.Http.Route("GetEventByUID")]
 
+    public IHttpActionResult GetEventByUID(int uID)
+    {
+      var q1 = BLL.EventService.SelectEventByUID(uID);
+      if (q1 == null)
+        return NotFound();
+      return Ok(q1);
+
+    }
     //מחיקה
     //.../api/Event/1016
     [RequireHttps]
@@ -176,5 +185,24 @@ namespace API.Controllers
       }
 
     }
+    //update
+    //[System.Web.Http.HttpPost]
+
+    //public IHttpActionResult PostEvent(Common.DTO.EventDto event1)
+    //{
+    //  try
+    //  {
+    //    int x = BLL.EventService.UpdateGuest(event1);
+
+    //    if (x == 0)
+    //      return NotFound();
+    //    else
+    //      return Ok(x);
+    //  }
+    //  catch (Exception e)
+    //  {
+    //    return BadRequest(e.Message);
+    //  }
+    //}
   }
 }

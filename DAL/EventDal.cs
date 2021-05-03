@@ -22,27 +22,26 @@ namespace DAL
         return db.Event.ToList();
       }
     }
+
     public static int UpdateEvent(Event event1)
     {
+      //אמור להיות update
       try
       {
         using (YourPlaceEntities db = new YourPlaceEntities())
         {
-          var q1 = db.Event.Add(event1);
+          var ev = db.Event.FirstOrDefault(e => e.event_id == event1.event_id);
           //שמור שינוי
+          ev.invitation_file = event1.invitation_file;
+          ev.event_type_id = event1.event_type_id;
+          ev.event_date = event1.event_date;
+          ev.event_des = event1.event_des;
+          ev.user_id = event1.user_id;
+          ev.due_date = event1.due_date;
+          ev.num_places_around_a_table = event1.num_places_around_a_table;
+          ev.num_tables = event1.num_tables;
           db.SaveChanges();
-          return 1;//יתכן שנשקול להוסיף את המספור האוטמטי החדש 
-          //var q1 = db.Event.FirstOrDefault(e => e.event_id == event1.event_id);
-          //q1.event_date = event1.event_date;
-          //q1.due_date = event1.due_date;
-          //q1.event_id = event1.event_id;
-          //q1.event_type_id = event1.event_type_id;
-          //q1.invitation_file = event1.invitation_file;
-          //q1.num_places_around_a_table = event1.num_places_around_a_table;
-          //q1.num_tables = event1.num_tables;
-          //q1.user_id = event1.user_id;
-          //db.SaveChanges();
-          //return 1;
+          return 1;
         }
       }
       catch (Exception e)
@@ -58,12 +57,12 @@ namespace DAL
         using (YourPlaceEntities db = new YourPlaceEntities())
         {
 
-          Event event1=db.Event.FirstOrDefault(e => e.event_id == id);
-      
+          Event event1 = db.Event.FirstOrDefault(e => e.event_id == id);
+
           return (string)event1.invitation_file;
         }
       }
-      catch(Exception e)
+      catch (Exception e)
       {
         throw e;
       }
@@ -84,6 +83,26 @@ namespace DAL
       //  return invatation;
       //}
     }
+
+    public static string GetNameOfEvent(int id)
+    {
+      try
+      {
+        using (YourPlaceEntities db = new YourPlaceEntities())
+        {
+
+          Event event1 = db.Event.FirstOrDefault(e => e.event_id == id);
+
+          return (string)event1.event_des;
+        }
+      }
+      catch (Exception e)
+      {
+        throw e;
+      }
+    
+    }
+
     public static Event SalectEvent(int code)
     {
 
@@ -92,7 +111,14 @@ namespace DAL
         return db.Event.FirstOrDefault(e => e.event_id == code);
       }
     }
+    public static Event SalectEventByUserId(int u_id)
+    {
 
+      using (YourPlaceEntities db = new YourPlaceEntities())
+      {
+        return db.Event.FirstOrDefault(e => e.user_id == u_id);
+      }
+    }
     public static int UpdateCategoryiesList(List<Guest_catagory> CategoryiesList)
     {
       try
@@ -116,8 +142,6 @@ namespace DAL
     {
       using (YourPlaceEntities db = new YourPlaceEntities())
       {
-        //List<EventType> f = new List<EventType>();
-        //f.Add();
         List<EventType> f = db.EventType.ToList();
         return f;
       }
@@ -154,23 +178,23 @@ namespace DAL
     //}
 
     public static int AddEvent(Event event1)
-        {
+    {
       try
       {
         using (YourPlaceEntities db = new YourPlaceEntities())
         {
           var q1 = db.Event.Add(event1);
-    //שמור שינוי
-    db.SaveChanges();
-              return 1;//יתכן שנשקול להוסיף את המספור האוטמטי החדש 
+          //שמור שינוי
+          db.SaveChanges();
+          return 1;//יתכן שנשקול להוסיף את המספור האוטמטי החדש 
 
-            }
-}
-          catch
-{
-  throw;
-}
         }
+      }
+      catch
+      {
+        throw;
+      }
+    }
     public static int DeleteEvent(int code)
     {
       try
@@ -186,8 +210,8 @@ namespace DAL
             db.Event.Remove(q1);
             //שמור שינוי
             db.SaveChanges();
-            //החזר 1
-            return 1;
+            //החזר id
+            return q1.event_id;
           }
         }
       }
@@ -196,7 +220,15 @@ namespace DAL
         throw;
       }
     }
+    public static int GetHID()
+    {
 
+      using (YourPlaceEntities db = new YourPlaceEntities())
+      {
+
+        return db.Event.Max(e => e.event_id);
+      }
+    }
     public static int GetNumOfSeatsAroundTable()
     {
       using (YourPlaceEntities db = new YourPlaceEntities())
@@ -208,4 +240,4 @@ namespace DAL
 
     }
   }
-  }
+}

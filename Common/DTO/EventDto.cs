@@ -15,7 +15,6 @@ namespace Common.DTO
     public int event_type_id { get; set; }
     public string invitation_file { get; set; }
     public int num_places_around_a_table { get; set; }
-
     public int num_tables { get; set; }
     public int user_id { get; set; }
 

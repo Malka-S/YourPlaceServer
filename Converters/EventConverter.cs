@@ -14,10 +14,12 @@ namespace Converters
     public static Event ToDalEvent(EventDto e)
     {
       Event ev = new Event();
-      Random rand = new Random();
+      //Random rand = new Random();
       //עשיתי מספרים גבוהים כי ךא עובד הבדיקה
       //לעשות פונקצית בדיקב BLL
-      ev.event_id = rand.Next(100, 10000);
+      //      ev.event_id = rand.Next(100, 10000);
+
+      ev.event_id = EventDal.GetHID() + 1;
       ev.invitation_file = e.invitation_file;
       ev.event_type_id = e.event_type_id;
       ev.event_date = e.event_date;
@@ -28,6 +30,22 @@ namespace Converters
       ev.num_tables = e.num_tables;
       ///....
       return ev;
+    }
+    public static Event ToDalEventEdit(EventDto e)
+    {
+      Event ev = new Event
+      {
+        event_id = e.event_id,
+        invitation_file = e.invitation_file,
+        event_date = e.event_date,
+        event_des = e.event_des,
+        user_id = e.user_id,
+        due_date = e.due_date,
+        num_places_around_a_table = e.num_places_around_a_table,
+        num_tables = e.num_tables,
+      };
+      return ev;
+
     }
     public static EventDto ToDtoEvent(Event e)
     {
@@ -97,5 +115,6 @@ namespace Converters
       bc.Des = des;
       return bc;
     }
+ 
   }
 }

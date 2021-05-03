@@ -62,3 +62,15 @@ C:\Users\Angular\Desktop\yourPlace2\YourPlaceServer\DAL\obj\Debug\DAL.csproj.Cor
 C:\Users\Angular\Desktop\yourPlace2\YourPlaceServer\DAL\obj\Debug\DAL.csproj.CopyComplete
 C:\Users\Angular\Desktop\yourPlace2\YourPlaceServer\DAL\obj\Debug\DAL.dll
 C:\Users\Angular\Desktop\yourPlace2\YourPlaceServer\DAL\obj\Debug\DAL.pdb
+C:\Users\Angular\Desktop\YourPlace3\YourPlaceServer\DAL\bin\Debug\DAL.dll.config
+C:\Users\Angular\Desktop\YourPlace3\YourPlaceServer\DAL\bin\Debug\DAL.dll
+C:\Users\Angular\Desktop\YourPlace3\YourPlaceServer\DAL\bin\Debug\DAL.pdb
+C:\Users\Angular\Desktop\YourPlace3\YourPlaceServer\DAL\bin\Debug\EntityFramework.dll
+C:\Users\Angular\Desktop\YourPlace3\YourPlaceServer\DAL\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Angular\Desktop\YourPlace3\YourPlaceServer\DAL\bin\Debug\EntityFramework.xml
+C:\Users\Angular\Desktop\YourPlace3\YourPlaceServer\DAL\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Angular\Desktop\YourPlace3\YourPlaceServer\DAL\obj\Debug\DAL.csprojAssemblyReference.cache
+C:\Users\Angular\Desktop\YourPlace3\YourPlaceServer\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+C:\Users\Angular\Desktop\YourPlace3\YourPlaceServer\DAL\obj\Debug\DAL.csproj.CopyComplete
+C:\Users\Angular\Desktop\YourPlace3\YourPlaceServer\DAL\obj\Debug\DAL.dll
+C:\Users\Angular\Desktop\YourPlace3\YourPlaceServer\DAL\obj\Debug\DAL.pdb

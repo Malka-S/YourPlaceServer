@@ -120,6 +120,23 @@ namespace API.Controllers
 
     //add
     [System.Web.Http.HttpPut]
+    [System.Web.Http.Route("PutGuests")]
+
+    public IHttpActionResult PutGuests(Common.DTO.GuestDto[] guests)
+    {
+      try
+      {
+        foreach (var g in guests)
+        {
+          var q = BLL.GuestService.AddGuest(g);
+        }
+        return Ok();
+      }
+      catch (Exception e)
+      {
+        return BadRequest(e.Message);
+      }
+    }
     [System.Web.Http.Route("PutGuest")]
 
     public IHttpActionResult PutGuest(Common.DTO.GuestDto guest)

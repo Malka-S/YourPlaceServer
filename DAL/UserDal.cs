@@ -18,17 +18,24 @@ namespace DAL
         return db.Users.ToList();
       }
     }
+    public static int GetHID()
+    {
+
+      using (YourPlaceEntities db = new YourPlaceEntities())
+      {
+
+        return db.Users.Max(e => e.user_id);
+      }
+    }
     public static int UpdateUser(Users user)
     {
-      //אמור להיות update
       try
       {
         using (YourPlaceEntities db = new YourPlaceEntities())
         {
           var q1 = db.Users.FirstOrDefault(u => u.user_id == user.user_id);
-          //שמור שינוי
           db.SaveChanges();
-          return 1;//יתכן שנשקול להוסיף את המספור האוטמטי החדש 
+          return 1;
         }
       }
       catch (Exception e)
@@ -56,7 +63,8 @@ namespace DAL
           var q1 = db.Users.Add(user);
           //שמור שינוי
           db.SaveChanges();
-          return 1;//יתכן שנשקול להוסיף את המספור האוטמטי החדש 
+          return q1.user_id;
+          //return 1;//יתכן שנשקול להוסיף את המספור האוטמטי החדש 
 
         }
       }

@@ -14,17 +14,23 @@ namespace DAL
       {
         using (YourPlaceEntities db = new YourPlaceEntities())
         {
-
           guest_table_member tm1 = db.guest_table_member.Add(guestTM);
-          //שמור שינוי
           db.SaveChanges();
-          return 1;//יתכן שנשקול להוסיף את המספור האוטמטי החדש 
+          return 1;
         }
-
       }
       catch (Exception e)
       {
         throw e;
+      }
+    }
+    public static int GetHID()
+    {
+
+      using (YourPlaceEntities db = new YourPlaceEntities())
+      {
+
+        return db.guest_table_member.Max(e => e.table_members_id);
       }
     }
     public static int GetPriority()

@@ -14,7 +14,7 @@ namespace BLL
       return Converters.UserConverter.ToDtoUserList(DAL.UserDal.SelectUsers());
     }
 
-    public static bool GetUserByEmail(string mail,string password)
+    public static bool Login(string mail,string password)
     {
       try
       {

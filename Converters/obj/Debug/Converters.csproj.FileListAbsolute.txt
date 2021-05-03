@@ -68,3 +68,17 @@ C:\Users\Angular\Desktop\yourPlace2\YourPlaceServer\Converters\obj\Debug\Convert
 C:\Users\Angular\Desktop\yourPlace2\YourPlaceServer\Converters\obj\Debug\Converters.csproj.CopyComplete
 C:\Users\Angular\Desktop\yourPlace2\YourPlaceServer\Converters\obj\Debug\Converters.dll
 C:\Users\Angular\Desktop\yourPlace2\YourPlaceServer\Converters\obj\Debug\Converters.pdb
+C:\Users\Angular\Desktop\YourPlace3\YourPlaceServer\Converters\bin\Debug\Converters.dll
+C:\Users\Angular\Desktop\YourPlace3\YourPlaceServer\Converters\bin\Debug\Converters.pdb
+C:\Users\Angular\Desktop\YourPlace3\YourPlaceServer\Converters\bin\Debug\Common.dll
+C:\Users\Angular\Desktop\YourPlace3\YourPlaceServer\Converters\bin\Debug\DAL.dll
+C:\Users\Angular\Desktop\YourPlace3\YourPlaceServer\Converters\bin\Debug\EntityFramework.dll
+C:\Users\Angular\Desktop\YourPlace3\YourPlaceServer\Converters\bin\Debug\Common.pdb
+C:\Users\Angular\Desktop\YourPlace3\YourPlaceServer\Converters\bin\Debug\DAL.pdb
+C:\Users\Angular\Desktop\YourPlace3\YourPlaceServer\Converters\bin\Debug\DAL.dll.config
+C:\Users\Angular\Desktop\YourPlace3\YourPlaceServer\Converters\bin\Debug\EntityFramework.xml
+C:\Users\Angular\Desktop\YourPlace3\YourPlaceServer\Converters\obj\Debug\Converters.csprojAssemblyReference.cache
+C:\Users\Angular\Desktop\YourPlace3\YourPlaceServer\Converters\obj\Debug\Converters.csproj.CoreCompileInputs.cache
+C:\Users\Angular\Desktop\YourPlace3\YourPlaceServer\Converters\obj\Debug\Converters.csproj.CopyComplete
+C:\Users\Angular\Desktop\YourPlace3\YourPlaceServer\Converters\obj\Debug\Converters.dll
+C:\Users\Angular\Desktop\YourPlace3\YourPlaceServer\Converters\obj\Debug\Converters.pdb

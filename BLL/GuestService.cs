@@ -30,6 +30,28 @@ namespace BLL
         throw e;
       }
     }
+    public static List<Common.DTO.GuestDto> GetGuestConfirmed()
+    {
+      try
+      {
+        return Converters.GuestConverter.ToDtoGuestList(DAL.GuestDal.GetAllGuestConfirmed());
+      }
+      catch (Exception e)
+      {
+        throw e;
+      }
+    }
+    public static List<Common.DTO.GuestDto> GetGuestNotConfirmed()
+    {
+      try
+      {
+        return Converters.GuestConverter.ToDtoGuestList(DAL.GuestDal.GetAllGuestNotConfirmed());
+      }
+      catch (Exception e)
+      {
+        throw e;
+      }
+    }
     public static List<Common.DTO.GuestDto> GetGuestListByCategory(string category)
     {
       try
